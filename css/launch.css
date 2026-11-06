@@ -5,3 +5,15 @@ html{scroll-padding-top:110px}a:focus-visible,button:focus-visible{outline:2px s
 .company-link{display:flex;align-items:center;gap:20px;max-width:440px;margin-top:30px;text-decoration:none}.company-link img{width:124px;height:80px;object-fit:contain}.company-link span{font-size:13px;letter-spacing:.05em}.mobile-toggle{display:none}
 @media(max-width:1000px){.mobile-toggle{display:block;background:#171324;color:#fff;border:1px solid #666;border-radius:6px;padding:9px 12px;font:inherit;font-size:12px;cursor:pointer}.topnav{gap:12px!important}.topnav nav{display:none!important}.topnav nav.mobile-open{display:flex!important;position:absolute;top:100%;left:0;right:0;flex-direction:column;gap:0;background:#100d20;padding:12px 24px;max-height:70vh;overflow:auto}.topnav nav.mobile-open a{padding:12px 0;font-size:14px}.company-link{gap:12px}.company-link img{width:105px;height:68px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
+/* Explicit tracks prevent English labels from enlarging the mobile hero. */
+.neon .hero-c{grid-template-columns:minmax(0,1fr)}
+.neon .hero-c>*,.neon .hero-c .center-c>*{min-width:0;max-width:100%}
+.keep-phrase{white-space:nowrap}
+@media(max-width:600px){
+.neon .hero-c .head-strip .l{flex-wrap:wrap;gap:10px}
+.neon .hero-c .head-strip>div{white-space:normal}
+.neon .hero-c .head-strip{gap:16px;font-size:11px;letter-spacing:.16em}
+.neon .hero-c .sub{font-size:clamp(20px,5.2vw,26px)}
+.neon .hero-c .sub em{display:inline-block}
+}
