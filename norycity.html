@@ -16,16 +16,16 @@ html,body{margin:0;padding:0}.neon,.neon button,.neon input{font-family:"Schibst
 .neon p,.neon h1,.neon h2,.neon h3{margin:0;text-wrap:pretty}.neon h2,.neon h3,.neon .sub,.neon .sub-ko,.neon .kicker{text-wrap:balance}.neon [lang="ko"]{word-break:keep-all;overflow-wrap:anywhere}
 .topnav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;justify-content:space-between;align-items:center;gap:24px;padding:16px 56px;background:linear-gradient(180deg,rgba(10,8,23,.85),rgba(10,8,23,0));}
 .topnav img{height:22px;display:block}.neon .btn-c,.neon .hero-c .head-strip .live,.neon .hero-c .head-strip>div{white-space:nowrap}.topnav .btn-c{flex-shrink:0}.neon .hero-c{padding-top:112px}.neon .hero-c .logo-c img{filter:drop-shadow(0 6px 30px rgba(0,0,0,.55))}.neon .hero-c::before{opacity:.75}.neon .hero-c::after{background:linear-gradient(180deg,rgba(10,8,23,.6) 0%,rgba(10,8,23,.15) 40%,rgba(10,8,23,.85) 100%)}.neon .hero-c .head-strip{flex-wrap:wrap;row-gap:12px}@media (max-width:1000px){.neon .hero-c{padding-top:96px}}
-.topnav nav{display:flex;gap:28px;font-size:12px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:var(--paper-dim)}
-.topnav .btn-c{padding:10px 18px;font-size:12px}
+.topnav nav{display:flex;gap:28px;font-size:13px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:var(--paper-dim)}
+.topnav .btn-c{padding:10px 18px;font-size:13px}
 .hero-c .center-c .sub{max-width:none}
 .hero-c .lead{font-size:clamp(15px,1.3vw,18px);line-height:1.6;color:var(--paper-dim);text-align:center;max-width:56ch}
 .intro{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
-.intro .word{font-size:clamp(80px,13vw,220px);font-weight:700;line-height:.85;letter-spacing:-.04em;background:linear-gradient(90deg,var(--pulse),var(--echo),var(--spark),var(--flow),var(--link));-webkit-background-clip:text;background-clip:text;color:transparent}
-.intro .word-sub{margin-top:18px;font-size:13px;letter-spacing:.22em;text-transform:uppercase;color:var(--paper-dim)}
+.intro .word{font-size:clamp(80px,13vw,220px);font-weight:700;line-height:.85;letter-spacing:-.04em;color:var(--paper)}
+.intro .word-sub{margin-top:18px;font-size:14.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--paper-dim)}
 .intro .txt{display:grid;gap:20px}
 .intro .txt p{font-size:clamp(17px,1.5vw,21px);line-height:1.6;color:var(--paper)}
-.intro .txt p.dim{color:var(--paper-dim);font-size:15.5px}
+.intro .txt p.dim{color:var(--paper-dim);font-size:16px}
 .story{display:grid;margin-top:24px}
 .story-sec{padding-top:120px;padding-bottom:40px}
 .story-wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:80px;align-items:center;max-width:1100px;margin:0 auto;width:100%}
@@ -39,63 +39,63 @@ html,body{margin:0;padding:0}.neon,.neon button,.neon input{font-family:"Schibst
 @media (prefers-reduced-motion:reduce){.book-in,.book::after{animation:none}}
 .b-cover,.b-back{position:absolute;inset:0;border-radius:2px 8px 8px 2px}
 .b-cover{transform:translateZ(18px);background:#f3ecdd;display:grid;grid-template-rows:auto 1fr auto;gap:10px;padding:26px 24px 28px;box-shadow:inset 10px 0 14px -6px rgba(31,47,134,.35),inset 0 0 0 1px rgba(31,47,134,.08);overflow:hidden}
-.b-cover img{width:100%;height:100%;object-fit:contain;mix-blend-mode:multiply;min-height:0}
-.b-top{font-size:9px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:#d9622b;text-align:center}
+.b-cover img{width:100%;height:100%;object-fit:contain;min-height:0}
+.b-top{font-size:10px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:#d9622b;text-align:center}
 .b-title{font-family:"EB Garamond","Gowun Batang",serif;font-size:30px;line-height:1.05;color:#1f2f86;text-align:center;font-weight:500}
 .b-back{transform:translateZ(-18px) rotateY(180deg);background:#1f2f86}
 .b-spine{position:absolute;top:0;bottom:0;left:-18px;width:36px;background:#1f2f86;transform:rotateY(-90deg);display:grid;place-items:center;border-radius:2px}
 .b-spine span{writing-mode:vertical-rl;transform:rotate(180deg);font-size:9px;letter-spacing:.3em;color:#f3ecdd;font-weight:600;white-space:nowrap}
 .b-pages{position:absolute;top:5px;bottom:5px;right:-17px;width:34px;transform:rotateY(90deg);background:repeating-linear-gradient(90deg,#efe6d2 0 2px,#d6ccb4 2px 3px)}
 .story-wrap .tx{display:grid;gap:20px;justify-items:start}
-.story-wrap .k{font-size:11px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:var(--gold)}
+.story-wrap .k{font-size:12px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:var(--gold)}
 .story-wrap h2{font-size:clamp(40px,4.6vw,72px);font-weight:600;letter-spacing:-.025em;line-height:1}
-.story-wrap h2 em{font-style:normal;background:linear-gradient(90deg,var(--pulse),var(--echo),var(--spark),var(--flow),var(--link));-webkit-background-clip:text;background-clip:text;color:transparent}
+.story-wrap h2 em{font-style:normal;background:linear-gradient(90deg,var(--e1,var(--flow)),var(--e2,var(--link)),var(--e3,var(--pulse)));-webkit-background-clip:text;background-clip:text;color:transparent}
 .story-wrap p{font-size:16px;line-height:1.7;color:var(--paper-dim);max-width:44ch}
-.story-wrap .meta{font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:var(--paper-faint)}
+.story-wrap .meta{font-size:12px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:var(--paper-faint)}
 .jh{display:grid;grid-template-columns:auto 1fr auto;gap:24px;align-items:end;padding:56px 0 20px;border-bottom:1px solid var(--line)}
-.jh .k{font-size:11px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
+.jh .k{font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
 .jh h3{font-size:clamp(30px,3.4vw,52px);font-weight:600;letter-spacing:-.02em;line-height:1}
-.jh h3 em{font-style:normal;background:linear-gradient(90deg,var(--pulse),var(--echo),var(--spark),var(--flow),var(--link));-webkit-background-clip:text;background-clip:text;color:transparent}
-.jh .note{font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:var(--paper-dim);text-align:right}
+.jh h3 em{font-style:normal;background:linear-gradient(90deg,var(--e1,var(--flow)),var(--e2,var(--link)),var(--e3,var(--pulse)));-webkit-background-clip:text;background-clip:text;color:transparent}
+.jh .note{font-size:12px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:var(--paper-dim);text-align:right}
 .neon .hl-c .ph .pin{white-space:nowrap}
 .gal{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-bottom:24px}
 .gal figure{margin:0;position:relative;border-radius:16px;overflow:hidden;aspect-ratio:4/3}
 .gal img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s}.gal figure:hover img{transform:scale(1.04)}
 .gal figure::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(10,8,23,.88));pointer-events:none}
 .gal figcaption{position:absolute;left:18px;right:18px;bottom:16px;z-index:1;display:grid;gap:4px}
-.gal figcaption strong{font-size:17px;font-weight:600;color:var(--paper)}.gal figcaption span{font-size:13px;line-height:1.45;color:var(--paper-dim)}
+.gal figcaption strong{font-size:17px;font-weight:600;color:var(--paper)}.gal figcaption span{font-size:14.5px;line-height:1.45;color:var(--paper-dim)}
 .mapblk{margin-top:56px;display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);grid-template-areas:"h img" "list img";gap:24px 48px;align-items:start}.mapblk .map-h{grid-area:h}.mapblk .map-img{grid-area:img;align-self:center}.mapblk .anchors{grid-area:list;grid-template-columns:1fr 1fr}
-.map-h{display:grid;gap:12px;max-width:640px}.map-h .k{font-size:11px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
+.map-h{display:grid;gap:12px;max-width:640px}.map-h .k{font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
 .map-h h3{font-size:clamp(30px,3.4vw,52px);font-weight:600;letter-spacing:-.02em;line-height:1.05}
-.map-h h3 em{font-style:normal;background:linear-gradient(90deg,var(--pulse),var(--echo),var(--spark),var(--flow),var(--link));-webkit-background-clip:text;background-clip:text;color:transparent}
-.map-h p{font-size:15.5px;line-height:1.65;color:var(--paper-dim)}
+.map-h h3 em{font-style:normal;background:linear-gradient(90deg,var(--e1,var(--flow)),var(--e2,var(--link)),var(--e3,var(--pulse)));-webkit-background-clip:text;background-clip:text;color:transparent}
+.map-h p{font-size:16px;line-height:1.65;color:var(--paper-dim)}
 .map-img{-webkit-mask-image:radial-gradient(ellipse 75% 70% at 50% 50%,#000 55%,transparent 100%);mask-image:radial-gradient(ellipse 75% 70% at 50% 50%,#000 55%,transparent 100%)}.map-img img{width:100%;display:block}
 .anchors{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
 .anchors li{display:grid;grid-template-columns:auto 1fr;column-gap:10px;align-items:center;padding:9px 12px;border-radius:14px;border:1px solid rgba(255,255,255,.10);background:rgba(255,255,255,.04)}
-.anchors .n{grid-row:span 2;width:28px;height:28px;border-radius:50%;display:grid;place-items:center;font-size:12px;font-weight:700;color:var(--night);background:var(--c);box-shadow:0 0 14px var(--c)}
-.anchors strong{font-size:14px;font-weight:600}.anchors em{font-style:normal;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--c)}
+.anchors .n{grid-row:span 2;width:28px;height:28px;border-radius:50%;display:grid;place-items:center;font-size:13px;font-weight:700;color:var(--night);background:var(--c);box-shadow:0 0 14px var(--c)}
+.anchors strong{font-size:15px;font-weight:600}.anchors em{font-style:normal;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--c)}
 .anchors .fin{--c:var(--gold);border-color:rgba(245,198,86,.5)}
 .jflow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;position:relative;margin-top:8px}
 .jflow article{border-radius:18px;overflow:hidden;border:1px solid rgba(255,255,255,.10);background:rgba(255,255,255,.04);display:flex;flex-direction:column;border-top:2px solid var(--c)}
 .jflow .ph{aspect-ratio:16/10;overflow:hidden}.jflow .ph img{width:100%;height:100%;object-fit:cover;display:block}
 .jflow .tx{padding:20px 20px 22px;display:grid;gap:10px;align-content:start}
-.jflow .st{font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--c)}
-.jflow h3{font-size:20px;font-weight:600;line-height:1.25}.jflow p{font-size:13.5px;line-height:1.6;color:var(--paper-dim)}
+.jflow .st{font-size:12px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--c)}
+.jflow h3{font-size:20px;font-weight:600;line-height:1.25}.jflow p{font-size:15px;line-height:1.6;color:var(--paper-dim)}
 .jflow article:not(:last-child)::after{content:"→";position:absolute;margin-left:calc(25% - 18px);top:22%;color:var(--gold);font-size:18px;display:none}
 .sec-lead{font-size:clamp(17px,1.5vw,21px);line-height:1.6;color:var(--paper);max-width:52ch}
 .steps{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin-bottom:40px}
 .steps div{border-radius:16px;border:1px solid rgba(255,255,255,.10);background:rgba(255,255,255,.04);padding:22px 20px;display:grid;gap:8px;align-content:start}
-.steps .no{font-size:10px;font-weight:600;letter-spacing:.2em;color:var(--gold)}.steps h3{font-size:19px;font-weight:600;line-height:1.2}.steps p{font-size:13.5px;line-height:1.55;color:var(--paper-dim)}
+.steps .no{font-size:12px;font-weight:600;letter-spacing:.2em;color:var(--gold)}.steps h3{font-size:19px;font-weight:600;line-height:1.2}.steps p{font-size:15px;line-height:1.55;color:var(--paper-dim)}
 .about-lead{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:64px;align-items:end;padding-bottom:8px}.about-lead .a1{font-size:clamp(24px,2.4vw,36px);line-height:1.35;font-weight:500;letter-spacing:-.01em;color:var(--paper);max-width:none}.about-lead .a2{font-size:clamp(16px,1.25vw,19px);line-height:1.7;color:var(--paper);opacity:.72;max-width:none;padding-left:24px;border-left:1px solid var(--line-2)}
 .pillars{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
 .pillars article{border-radius:20px;border:1px solid rgba(255,255,255,.10);background:rgba(255,255,255,.04);padding:28px 26px;display:grid;gap:12px;align-content:start;border-top:2px solid var(--c)}
 .pillars .pimg{margin:-28px -26px 8px;aspect-ratio:16/10;overflow:hidden}.pillars .pimg img{width:100%;height:100%;object-fit:cover;display:block}.pillars article{overflow:hidden}
-.pillars .pk{font-size:11px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--c)}
-.pillars h3{font-size:24px;font-weight:600;line-height:1.2}.pillars p{font-size:14.5px;line-height:1.6;color:var(--paper-dim)}
+.pillars .pk{font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--c)}
+.pillars h3{font-size:24px;font-weight:600;line-height:1.2}.pillars p{font-size:15.5px;line-height:1.6;color:var(--paper-dim)}
 #about .intro{margin-top:40px;padding-top:56px;border-top:1px solid var(--line)}
-.ways-h{font-size:11px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-top:24px}
+.ways-h{font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-top:24px}
 .paper-h{text-align:center;display:grid;gap:18px;justify-items:center;padding-bottom:24px}
-.paper-h .k{font-size:11px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--rust)}
+.paper-h .k{font-size:12px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--rust)}
 .paper-h h2{font-size:clamp(52px,8vw,128px);font-weight:600;letter-spacing:-.03em;line-height:1;color:var(--ink)}
 .paper-h p{font-size:clamp(17px,1.6vw,22px);color:var(--ink-dim)}
 .neon .paper{--ink:#1f2f86;--ink-dim:#4a5490;--rust:#d9622b;background:#f3ecdd;color:var(--ink);padding-top:120px;padding-bottom:120px}
@@ -116,72 +116,72 @@ html,body{margin:0;padding:0}.neon,.neon button,.neon input{font-family:"Schibst
 .paper .s2e-g strong{color:var(--ink)}.paper .s2e-g p{color:var(--ink-dim)}
 .paper a:hover{color:var(--rust)}.s2e-ill{margin:0 0 16px}.s2e-ill img{width:100%;display:block;border-radius:8px;mix-blend-mode:multiply}.paper .ch:last-child .ill{width:100%;max-width:340px;justify-self:center}
 .ch{display:grid;grid-template-columns:120px minmax(0,1fr) minmax(0,1.2fr);gap:32px;padding:36px 0;border-bottom:1px solid var(--line)}
-.ch .no{font-size:12px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);padding-top:4px}
+.ch .no{font-size:13px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);padding-top:4px}
 .ch .hd{display:grid;gap:10px;align-content:start}
-.ch .k{font-size:11px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--paper-dim)}
+.ch .k{font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--paper-dim)}
 .ch:first-child .k,.ch.three .k{font-size:clamp(24px,2.4vw,34px);font-weight:600;letter-spacing:-.01em;text-transform:none;color:var(--paper);line-height:1.1}
 .ch h3{font-size:clamp(24px,2.4vw,34px);font-weight:600;letter-spacing:-.01em;line-height:1.1;text-transform:capitalize}
 .ch .bd{display:grid;gap:14px;max-width:58ch}
-.ch .bd p{font-size:15.5px;line-height:1.7;color:var(--paper-dim)}
+.ch .bd p{font-size:16px;line-height:1.7;color:var(--paper-dim)}
 .ch .bd p.q{color:var(--paper);font-size:18px;line-height:1.5}
 .ch .qs{display:grid;gap:0;border-top:1px solid var(--line)}
 .ch .qs div{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:12px 0;border-bottom:1px solid var(--line)}
-.ch .qs>div>span{flex:1;min-width:0;font-size:15px;color:var(--paper-dim)}.ch .qs strong{white-space:nowrap}
-.ch .qs strong{font-size:22px;font-weight:600;background:linear-gradient(90deg,var(--pulse),var(--spark),var(--link));-webkit-background-clip:text;background-clip:text;color:transparent}
+.ch .qs>div>span{flex:1;min-width:0;font-size:16px;color:var(--paper-dim)}.ch .qs strong{white-space:nowrap}
+.ch .qs strong{font-size:22px;font-weight:600;color:var(--gold)}
 .s2e{display:grid;gap:24px;margin-top:40px}
-.s2e .k{font-size:11px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:10px}
+.s2e .k{font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:10px}
 .s2e h3{font-size:clamp(28px,3vw,44px);font-weight:600;letter-spacing:-.02em;line-height:1.05}
 .s2e-g{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
 .s2e-g div{border-radius:20px;border:1px solid rgba(255,255,255,.10);background:rgba(255,255,255,.04);padding:24px 22px;display:grid;gap:10px;align-content:start;border-top:2px solid var(--c)}
 .s2e-g strong{font-size:22px;font-weight:600;color:var(--paper)}
-.s2e-g p{font-size:14px;line-height:1.6;color:var(--paper-dim)}
-.l-card .na{font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--c)}
-.l-card p{font-size:13px;line-height:1.55;color:var(--paper-dim)}
+.s2e-g p{font-size:15px;line-height:1.6;color:var(--paper-dim)}
+.l-card .na{font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--c)}
+.l-card p{font-size:14.5px;line-height:1.55;color:var(--paper-dim)}
 .days{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
 .day{border-radius:20px;border:1px solid rgba(255,255,255,.10);background:rgba(255,255,255,.04);padding:28px 26px;display:grid;gap:14px;align-content:start}
-.day .d{font-size:11px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--c,var(--gold))}
+.day .d{font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--c,var(--gold))}
 .day h3{font-size:26px;font-weight:600;letter-spacing:-.01em;line-height:1.1}
 .day .t{display:grid;gap:10px;padding-top:14px;border-top:1px solid rgba(255,255,255,.10)}
-.day .t div{display:grid;grid-template-columns:64px 1fr;gap:12px;font-size:14px;line-height:1.5;color:var(--paper-dim)}
-.day .t span.rl{font-size:10px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--paper);padding-top:3px}
+.day .t div{display:grid;grid-template-columns:64px 1fr;gap:12px;font-size:15px;line-height:1.5;color:var(--paper-dim)}
+.day .t span.rl{font-size:12px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--paper);padding-top:3px}
 .district{display:grid;grid-template-columns:1.1fr 1fr;gap:40px;align-items:center}
 .district.rev .ph-d{order:2}
 .district .ph-d{aspect-ratio:4/3;border-radius:20px;overflow:hidden}
 .district .ph-d img{width:100%;height:100%;object-fit:cover;filter:saturate(1.1) contrast(1.05)}
 .district .tx{display:grid;gap:18px}
-.district .tx .k{font-size:11px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--c)}
+.district .tx .k{font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--c)}
 .district .tx h3{font-size:clamp(32px,3.6vw,52px);font-weight:600;letter-spacing:-.02em;line-height:1}
-.district .tx p{font-size:15px;line-height:1.65;color:var(--paper-dim);max-width:46ch}
+.district .tx p{font-size:16px;line-height:1.65;color:var(--paper-dim);max-width:46ch}
 .district ul{list-style:none;margin:0;padding:0;display:grid;gap:0;border-top:1px solid rgba(255,255,255,.10)}
-.district li{display:grid;grid-template-columns:minmax(0,180px) 1fr;gap:16px;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.10);font-size:14px;line-height:1.5;color:var(--paper-dim)}
+.district li{display:grid;grid-template-columns:minmax(0,180px) 1fr;gap:16px;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.10);font-size:15px;line-height:1.5;color:var(--paper-dim)}
 .district li strong{color:var(--paper);font-weight:600}
 .live-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 .live-grid .hl-c .name{font-size:clamp(32px,3.4vw,48px)}
-.live-grid .hl-c p{font-size:14.5px;line-height:1.6;color:var(--paper-dim)}
+.live-grid .hl-c p{font-size:15.5px;line-height:1.6;color:var(--paper-dim)}
 .app-row{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px}
 .app-row div{border-radius:16px;border:1px solid rgba(255,255,255,.10);background:rgba(255,255,255,.04);padding:20px 18px;display:grid;gap:8px;align-content:start}
-.app-row .no{font-size:10px;font-weight:600;letter-spacing:.2em;color:var(--gold)}
+.app-row .no{font-size:12px;font-weight:600;letter-spacing:.2em;color:var(--gold)}
 .app-row h3{font-size:18px;font-weight:600}
-.app-row p{font-size:13px;line-height:1.5;color:var(--paper-dim)}
+.app-row p{font-size:14.5px;line-height:1.5;color:var(--paper-dim)}
 .road{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
 .road article{position:relative;border-radius:22px;border:1px solid rgba(255,255,255,.10);background:rgba(255,255,255,.04);padding:32px 28px;display:grid;gap:14px;align-content:start;overflow:hidden;isolation:isolate}
 .road article::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 80% 70% at 50% 0%,var(--c),transparent 70%);opacity:.35;z-index:-1}
 .road .yr{font-size:56px;font-weight:700;letter-spacing:-.03em;line-height:1}
-.road .st{font-size:11px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--c)}
+.road .st{font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--c)}
 .road h3{font-size:22px;font-weight:600;line-height:1.2}
-.road p{font-size:14px;line-height:1.6;color:var(--paper-dim)}
-.road .now{justify-self:start;white-space:nowrap;font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;padding:5px 10px;border:1px solid var(--c);color:var(--c);border-radius:999px}
+.road p{font-size:15px;line-height:1.6;color:var(--paper-dim)}
+.road .now{justify-self:start;white-space:nowrap;font-size:12px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;padding:5px 10px;border:1px solid var(--c);color:var(--c);border-radius:999px}
 .join{text-align:center;display:grid;justify-items:center;gap:22px;padding:120px 56px}
 .join h2{font-size:clamp(48px,7vw,112px);font-weight:600;letter-spacing:-.03em;line-height:.95}
-.join h2 em{font-style:normal;background:linear-gradient(90deg,var(--pulse),var(--echo),var(--spark),var(--flow),var(--link));-webkit-background-clip:text;background-clip:text;color:transparent}
+.join h2 em{font-style:normal;background:linear-gradient(90deg,var(--e1,var(--flow)),var(--e2,var(--link)),var(--e3,var(--pulse)));-webkit-background-clip:text;background-clip:text;color:transparent}
 .join p{font-size:17px;line-height:1.6;color:var(--paper-dim);max-width:52ch}
 .join form{display:flex;width:min(100%,480px);background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.22);border-radius:999px;overflow:hidden}
-.join input{flex:1;min-width:0;padding:16px 22px;background:transparent;border:0;outline:0;font:inherit;font-size:15px;color:var(--paper)}
+.join input{flex:1;min-width:0;padding:16px 22px;background:transparent;border:0;outline:0;font:inherit;font-size:16px;color:var(--paper)}
 .join input::placeholder{color:var(--paper-faint)}
-.join button{background:var(--paper);color:var(--night);border:0;padding:0 26px;font:inherit;font-size:13px;font-weight:600;letter-spacing:.06em;cursor:pointer}
+.join button{background:var(--paper);color:var(--night);border:0;padding:0 26px;font:inherit;font-size:14.5px;font-weight:600;letter-spacing:.06em;cursor:pointer}
 .join button:hover{background:var(--gold)}
-.join .ok{font-size:13px;color:var(--gold);min-height:1em}
-.join .alt{display:flex;gap:28px;flex-wrap:wrap;justify-content:center;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--paper-dim)}
+.join .ok{font-size:14.5px;color:var(--gold);min-height:1em}
+.join .alt{display:flex;gap:28px;flex-wrap:wrap;justify-content:center;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--paper-dim)}
 .join .alt a{border-bottom:1px solid rgba(255,255,255,.3);padding-bottom:3px}
 .foot-c-top.slim{grid-template-columns:1.6fr 1fr 1fr}
 html[lang="en"] .neon [lang="ko"],html[lang="ko"] .neon [lang="en"]{display:none!important}
@@ -190,7 +190,7 @@ html[lang="ko"] .section-title-bg h2{font-size:clamp(52px,8.5vw,140px);line-heig
 html[lang="ko"] .sec .head-c h2{line-height:1.1}
 .tn-r{display:flex;align-items:center;gap:14px}
 .lang-sw{display:flex;border:1px solid rgba(255,255,255,.25);border-radius:999px;overflow:hidden}
-.lang-sw button{background:transparent;border:0;color:var(--paper-dim);font:inherit;font-size:11px;font-weight:600;letter-spacing:.14em;padding:8px 12px;cursor:pointer}
+.lang-sw button{background:transparent;border:0;color:var(--paper-dim);font:inherit;font-size:12px;font-weight:600;letter-spacing:.14em;padding:8px 12px;cursor:pointer}
 .lang-sw button.on{background:var(--paper);color:var(--night)}
 @media (max-width:1000px){.topnav{padding:14px 20px}.topnav nav{display:none}.intro,.district,.live-grid{grid-template-columns:1fr;gap:32px}.district.rev .ph-d{order:0}.days,.road{grid-template-columns:1fr}.app-row{grid-template-columns:1fr 1fr}.join{padding:80px 24px}.foot-c-top.slim{grid-template-columns:1fr}.pillars{grid-template-columns:1fr}.about-lead{grid-template-columns:1fr;gap:20px}.about-lead br{display:none}.about-lead .a2{max-width:56ch}.jh{grid-template-columns:1fr;gap:10px}.gal{grid-template-columns:1fr 1fr}.jflow{grid-template-columns:1fr 1fr}.mapblk{grid-template-columns:1fr;grid-template-areas:"h" "img" "list"}.anchors{grid-template-columns:1fr 1fr}.jh .note{text-align:left}.story-wrap{grid-template-columns:1fr;gap:64px}.steps{grid-template-columns:1fr 1fr}.paper .ch,.paper .ch:nth-child(even){grid-template-columns:1fr;grid-template-areas:"ill" "no" "hd" "bd";padding:48px 0}.ch{grid-template-columns:1fr;gap:12px}.s2e-g{grid-template-columns:1fr 1fr}.lights-grid{grid-template-columns:1fr 1fr}}
 .ml-grid{margin-bottom:0}@media (max-width:1000px){.ml-x{display:none!important}}
@@ -198,11 +198,58 @@ html[lang="ko"] .sec .head-c h2{line-height:1.1}
 .main-live>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .main-live::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,8,20,0) 35%,rgba(10,8,20,.88))}
 .main-live .info{position:relative;z-index:1;padding:clamp(28px,4vw,64px);display:grid;gap:16px;max-width:900px}
-.main-live .pin{white-space:nowrap;position:absolute;top:20px;left:20px;z-index:1;font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;background:rgba(10,8,20,.6);color:var(--paper);padding:8px 12px;border-radius:999px}
-.main-live .role{font-size:11px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--pulse)}
+.main-live .pin{white-space:nowrap;position:absolute;top:20px;left:20px;z-index:1;font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;background:rgba(10,8,20,.6);color:var(--paper);padding:8px 12px;border-radius:999px}
+.main-live .role{font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--pulse)}
 .main-live .name{font-size:clamp(48px,7vw,112px);line-height:1;color:var(--paper)}
 .main-live p{font-size:clamp(16px,1.3vw,20px);line-height:1.6;color:var(--paper);margin:0}
 @media (max-width:700px){.main-live{min-height:420px}.main-live .info{padding:24px}}
+
+.intro .word{text-shadow:0 0 60px rgba(255,255,255,.12)}
+.story-wrap h2 em{--e1:var(--spark);--e2:var(--echo);--e3:var(--pulse)}.map-h h3 em{--e1:var(--flow);--e2:var(--link);--e3:var(--link)}.join h2 em{--e1:var(--spark);--e2:var(--pulse);--e3:var(--link)}.neon .hero-c .sub em{--e1:var(--spark);--e2:var(--pulse);--e3:var(--link)}
+.jflow{gap:32px;margin-top:40px}.jflow article{border:0;border-top:2px solid var(--c);background:none;border-radius:0;overflow:visible}.jflow .tx{padding:22px 0 0;gap:12px}.jflow h3{font-size:24px;line-height:1.2}.jflow p{font-size:15.5px}
+.gal{gap:14px}.gal figure:first-child{grid-column:span 2;grid-row:span 2;aspect-ratio:auto}.gal figure:first-child figcaption{left:28px;bottom:26px}.gal figure:first-child figcaption strong{font-size:26px}.gal figure:first-child figcaption span{font-size:16px}
+@media (max-width:1200px){.topnav{padding:16px 32px}.topnav nav{gap:20px}.neon .sec{padding-left:40px;padding-right:40px}.jflow{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:40px}.steps{grid-template-columns:repeat(3,minmax(0,1fr))}.app-row{grid-template-columns:repeat(3,minmax(0,1fr))}.s2e-g{grid-template-columns:repeat(2,minmax(0,1fr))}.story-wrap{gap:48px}.about-lead{gap:40px}.neon .lights-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.mapblk .anchors{grid-template-columns:1fr 1fr}}
+@media (max-width:1000px){.gal figure:first-child,.gal figure:last-child{grid-column:span 2;grid-row:auto;aspect-ratio:16/10}.neon .sec{padding-left:24px;padding-right:24px}}
+@media (max-width:700px){.neon .sec{padding:56px 20px}.gal,.jflow,.steps,.app-row,.s2e-g,.pillars{grid-template-columns:1fr}.gal figure:first-child,.gal figure:last-child{grid-column:auto;aspect-ratio:4/3}.gal figure:first-child figcaption strong{font-size:20px}.gal figure:first-child figcaption span{font-size:14.5px}.neon .lights-grid{grid-template-columns:1fr 1fr}.district li{grid-template-columns:1fr;gap:4px}.jh h3,.map-h h3{font-size:30px}.district .tx h3{font-size:32px}.about-lead .a1{font-size:22px}.about-lead .a2{padding-left:16px}.road .yr{font-size:48px}.join{padding:72px 20px}.join h2{font-size:44px}.neon .section-title-bg h2{font-size:48px}.main-live .name{font-size:42px}.hero-c .lead{font-size:15.5px}.foot-c-bot{flex-direction:column;gap:12px}}
+@media (max-width:440px){.topnav{padding:12px 16px}.topnav .btn-c{display:none}.topnav img{height:18px}.neon .lights-grid{grid-template-columns:1fr}}
+.topnav{transition:background .3s}.topnav.scrolled{background:rgba(10,8,23,.92);border-bottom:1px solid rgba(255,255,255,.06)}.book,.book-in{backface-visibility:hidden;-webkit-backface-visibility:hidden}.story-sec{position:relative;z-index:0;isolation:isolate}
+.intro .word img{display:block;width:clamp(240px,32vw,540px);height:auto}
+.b-cover,.b-spine,.b-pages,.b-back{transform-style:flat;will-change:transform}.b-cover{contain:paint;background:#f3e9d5!important}
+.book{perspective:none}.book-in{transform-style:flat!important;transform:none;animation:bookFloat 7s ease-in-out infinite}.book .b-back,.book .b-spine,.book .b-pages{display:none}
+.book .b-cover{transform:none!important;will-change:auto;contain:none;border-radius:3px 10px 10px 3px;box-shadow:inset 14px 0 18px -8px rgba(31,47,134,.45),inset 3px 0 0 rgba(31,47,134,.25),3px 3px 0 #e9dfc8,6px 6px 0 #d9ceb4,5px 5px 0 #efe6d2,8px 8px 0 #d9ceb4,11px 11px 0 #e9dfc8,14px 14px 0 #1f2f86,0 30px 60px rgba(0,0,0,.55)!important}
+@keyframes bookFloat{0%,100%{transform:perspective(1400px) rotateY(-28deg) rotateX(5deg) translateY(0)}50%{transform:perspective(1400px) rotateY(-10deg) rotateX(3deg) translateY(-8px)}}
+@media (prefers-reduced-motion:reduce){.book-in{animation:none}}
+.mapblk{grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);grid-template-areas:"h img" "list img";gap:28px 48px;align-items:start}.mapblk .map-img{align-self:center}.mapblk .map-h{max-width:560px}.mapblk .map-img{-webkit-mask-image:none;mask-image:none;border-radius:20px;overflow:hidden}.mapblk .anchors{grid-template-columns:1fr 1fr}.anchors .fin{--c:#ff3d8b;border-color:rgba(255,61,139,.5)}
+@media (max-width:1000px){.mapblk{grid-template-columns:1fr;grid-template-areas:"h" "img" "list"}.mapblk .anchors{grid-template-columns:repeat(3,minmax(0,1fr))}}@media (max-width:700px){.mapblk .anchors{grid-template-columns:1fr 1fr}}
+.tba{display:flex;justify-content:flex-end;margin:28px 0 10px;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--paper-dim)}
+.jflow{counter-reset:js;position:relative;margin-top:56px;gap:28px}
+.jflow::before{content:"";position:absolute;left:0;right:0;top:7px;height:1px;background:linear-gradient(90deg,rgba(255,255,255,.05),rgba(255,255,255,.28) 15%,rgba(255,255,255,.28) 85%,rgba(255,255,255,.05))}
+.jflow article{border-top:0;position:relative;counter-increment:js;transition:transform .4s}
+.jflow article::before{content:"";position:absolute;top:0;left:0;width:15px;height:15px;border-radius:50%;background:var(--c);box-shadow:0 0 0 6px #0a0817,0 0 24px 2px var(--c);z-index:1}
+.jflow .tx{padding:40px 0 0;gap:12px}
+.jflow .tx::before{content:counter(js,decimal-leading-zero);display:block;font-size:clamp(64px,6vw,96px);font-weight:700;line-height:.9;letter-spacing:-.04em;color:transparent;-webkit-text-stroke:1.2px var(--c);margin-bottom:10px}
+.jflow article:nth-child(3) .tx::before{color:var(--c);-webkit-text-stroke:0;text-shadow:0 0 40px color-mix(in oklab,var(--c) 60%,transparent)}
+.jflow article:nth-child(3)::after{content:"Main Live";display:block!important;position:absolute;top:-34px;left:0;margin:0;font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:#0a0817;background:var(--c);padding:5px 10px;border-radius:999px}
+.jflow article:hover{transform:translateY(-6px)}
+@media (max-width:1200px){.jflow::before{display:none}.jflow{row-gap:56px}}
+@media (max-width:700px){.jflow .tx::before{font-size:64px}}
+.main-live .name{font-size:clamp(44px,6vw,104px);font-weight:700;letter-spacing:-.035em;line-height:.95}.main-live .name .nw{white-space:nowrap}.main-live .name em{font-style:normal;font-weight:400;color:var(--pulse);margin:0 .08em}.main-live .role{color:var(--gold)}.main-live p{max-width:34em;text-wrap:pretty}.main-live::after{background:linear-gradient(180deg,rgba(10,8,20,.1) 20%,rgba(10,8,20,.9))}
+
+.jh h3 em,.district .tx h3 em{font-style:normal;background:linear-gradient(90deg,var(--e1),var(--e2),var(--e3));-webkit-background-clip:text;background-clip:text;color:transparent}
+.jh:nth-of-type(1) h3 em,#live h3 em{--e1:var(--pulse);--e2:var(--echo);--e3:var(--spark)}
+.jh h3 em{--e1:var(--flow);--e2:var(--link);--e3:var(--pulse)}#live h3 em{--e1:var(--spark);--e2:var(--pulse);--e3:var(--link)}
+.district h3 em{--e1:var(--c);--e2:var(--link);--e3:var(--link)}
+.road .yr{background:linear-gradient(90deg,var(--paper),var(--c));-webkit-background-clip:text;background-clip:text;color:transparent}
+.pillars h3,.s2e-g strong{color:var(--paper)}.jflow h3{color:var(--paper)}
+.anchors strong{font-weight:500;color:rgba(255,255,255,.9)}
+.anchors .n{background:transparent;color:var(--c);border:1.5px solid var(--c);box-shadow:none}
+.intro .txt p em{font-style:normal;font-weight:600}
+.neon .mapblk{margin-top:120px;padding-top:96px;border-top:1px solid var(--line)}.neon .jh{padding-top:128px;margin-top:24px}.neon .district{margin-top:72px}.neon .district+.district{margin-top:96px}.neon .gal{margin-top:40px}.neon .main-live{margin-top:40px}@media (max-width:700px){.neon .mapblk{margin-top:72px;padding-top:56px}.neon .jh{padding-top:80px}.neon .district,.neon .district+.district{margin-top:56px}}
+.j-lead{display:grid;gap:10px;justify-items:center;text-align:center;padding:24px 0 8px}.j-lead .j1{font-size:clamp(40px,5.6vw,88px);font-weight:600;letter-spacing:-.03em;line-height:1;color:var(--paper)}.j-lead .j2{font-size:clamp(22px,2.4vw,36px);font-weight:500;letter-spacing:-.01em;line-height:1.3;color:var(--paper-dim);max-width:none}.j-lead .j2 em{font-style:normal;font-weight:600;background:linear-gradient(90deg,var(--spark),var(--pulse),var(--link));-webkit-background-clip:text;background-clip:text;color:transparent}
+.j-band{position:relative;margin:120px 0 0;border-radius:20px;overflow:hidden;aspect-ratio:21/9}.j-band img{width:100%;height:100%;object-fit:cover;display:block}.j-band::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(10,8,23,.85))}.j-band figcaption{position:absolute;left:clamp(20px,4vw,56px);right:clamp(20px,4vw,56px);bottom:clamp(20px,3.5vw,48px);z-index:1;display:grid;gap:10px;max-width:640px}.j-band strong{font-size:clamp(28px,3.4vw,52px);font-weight:600;letter-spacing:-.02em;line-height:1.05;color:var(--paper)}.j-band strong em{font-style:normal;background:linear-gradient(90deg,var(--flow),var(--link),var(--pulse));-webkit-background-clip:text;background-clip:text;color:transparent}.j-band figcaption>span{font-size:16px;line-height:1.6;color:rgba(255,255,255,.85)}.neon .j-band+.mapblk{margin-top:120px;border-top:0;padding-top:0}@media (max-width:700px){.j-band{aspect-ratio:4/5;margin-top:72px}.neon .j-band+.mapblk{margin-top:72px}}
+.j-chips{list-style:none;margin:6px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px}.j-chips li{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;padding:7px 12px;border-radius:999px;border:1px solid rgba(255,255,255,.35);background:rgba(10,8,23,.45);color:var(--paper);white-space:nowrap}.j-band figcaption{max-width:900px}.j-chips{flex-wrap:nowrap}.j-chips li{font-size:11px;padding:6px 11px}@media (max-width:1000px){.j-chips{flex-wrap:wrap}}
+.book-h{display:grid;gap:12px;justify-items:center;text-align:center;margin-top:140px}.book-h .k{font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}.book-h h3{font-size:clamp(32px,4vw,60px);font-weight:600;letter-spacing:-.02em;line-height:1.05}.book-h h3 em{font-style:normal;background:linear-gradient(90deg,var(--flow),var(--link),var(--pulse));-webkit-background-clip:text;background-clip:text;color:transparent}.book-h p{font-size:17px;color:var(--paper-dim)}.tix{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:48px}.tix article{position:relative;border-radius:22px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.04);padding:32px 28px 30px;display:grid;gap:12px;align-content:start;overflow:hidden}.tix article::before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:var(--c)}.tix .no{font-size:12px;font-weight:700;letter-spacing:.2em;color:var(--c)}.tix h4{margin:0;font-size:26px;font-weight:600;letter-spacing:-.01em}.tix p{font-size:15.5px;line-height:1.6;color:var(--paper-dim)}.tix .best{border-color:color-mix(in oklab,var(--spark) 55%,transparent);background:linear-gradient(180deg,color-mix(in oklab,var(--spark) 12%,transparent),rgba(255,255,255,.03))}.tix-note{margin-top:24px;text-align:center;font-size:14.5px;color:var(--paper-dim)}@media (max-width:1000px){.tix{grid-template-columns:1fr}.book-h{margin-top:88px}}
+.tech{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:24px}.tech article{position:relative;border-radius:22px;overflow:hidden;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.04)}.t-img{aspect-ratio:16/11;display:grid;align-items:end}.t-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.t-img::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 35%,rgba(10,8,23,.92))}.tech .tx{position:relative;z-index:1;padding:28px;display:grid;gap:10px}.t-tx{padding:32px 28px;display:grid;gap:10px;align-content:start;border-top:3px solid var(--c)!important}.tech .no{font-size:12px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}.t-tx .no{color:var(--c)}.tech h4{margin:0;font-size:clamp(22px,2.2vw,30px);font-weight:600;letter-spacing:-.01em;line-height:1.15;color:var(--paper)}.tech p{font-size:15.5px;line-height:1.6;color:rgba(255,255,255,.78);max-width:44ch}@media (max-width:700px){.tech{grid-template-columns:1fr}.t-img{aspect-ratio:4/5}}
 </style>
 </head>
 <body class="neon">
@@ -210,7 +257,7 @@ html[lang="ko"] .sec .head-c h2{line-height:1.1}
 <div class="grain-c"></div>
 <header class="topnav">
 <a href="#hero"><img src="assets/brand/logo-nory-white.png" alt="NORY CITY"></a>
-<nav><a href="#about">About</a><a href="#journey">Journey</a><a href="#live">Live</a><a href="#next">What's Next</a><a href="story.html">Story</a></nav>
+<nav><a href="#about">About</a><a href="#journey">Journey</a><a href="#live">Live</a><a href="story.html">Story</a><a href="#next">What's Next</a></nav>
 <div class="tn-r"><div class="lang-sw"><button type="button" data-l="ko">KR</button><button type="button" data-l="en">EN</button></div><a href="#join" class="btn-c glow">Pre-register</a></div>
 </header>
 <section class="hero-c" id="hero" data-screen-label="Hero">
@@ -221,10 +268,10 @@ html[lang="ko"] .sec .head-c h2{line-height:1.1}
 <div class="center-c">
 <div class="logo-c"><img src="assets/brand/logo-nory-white.png" alt="NORY CITY"></div>
 <p class="sub"><span lang="en">Music becomes play.<br>The city becomes <em>the playground.</em></span><span lang="ko">음악은 놀이가 되고, 도시는 <em>놀이터가 된다.</em></span></p>
-<p class="lead"><span lang="en">A global play-based music festival that turns a city into one musical journey, connecting concerts, exhibitions, AR, media art, food and shopping.</span><span lang="ko">공연, 전시, AR, 미디어아트, 음식과 쇼핑을 하나의 음악 여정으로 이어 도시 전체를 무대로 만드는 글로벌 플레이 기반 뮤직 페스티벌.</span></p>
+<p class="lead"><span lang="en">A global play-based music festival that turns a city into one musical journey, connecting concerts, exhibitions, AR, media art, food and shopping.</span><span lang="ko">공연, 전시, AR, 미디어아트, 음식과 쇼핑을 하나의 음악 여정으로 이어<br>도시 전체를 무대로 만드는 글로벌 플레이 기반 뮤직 페스티벌.</span></p>
 </div>
 <div class="bot-c">
-<a href="#join" class="btn-c glow"><span lang="en">Become a Norian →</span><span lang="ko">노리안 되기 →</span></a>
+<a href="#join" class="btn-c glow">Become a Norian →</a>
 <a href="#journey" class="btn-c ghost">Explore the Journey</a>
 </div>
 </section>
@@ -234,120 +281,94 @@ html[lang="ko"] .sec .head-c h2{line-height:1.1}
 <h2 style="--c1:var(--pulse);--c2:var(--link)">Play-based <em>Music Festival</em>.</h2>
 <div class="tag">Global<br>Coming 2027</div>
 </div>
-<div class="about-lead"><p class="a1"><span lang="en">One city journey connecting live music, exhibitions, AR, media art, dining and retail.</span><span lang="ko">라이브 공연, 전시, AR, 미디어아트, 다이닝,<br>리테일을 잇는 하나의 도시 여정.</span></p><p class="a2"><span lang="en">Visitors don’t just attend a concert. They travel through the city, play along the way, and see what they created come back on stage.</span><span lang="ko">관객은 공연 하나를 보고 돌아가는 것이 아니라, 도시를 여행하며 놀고,<br>그 길에서 만든 것들이 무대 위로 돌아오는 것을 경험합니다.</span></p></div>
+<div class="about-lead"><p class="a1"><span lang="en">One city journey connecting live music, exhibitions, AR, media art, dining and retail.</span><span lang="ko">라이브 공연, 전시, AR, 미디어아트,<br>다이닝과 리테일을 잇는 하나의 도시 여정.</span></p><p class="a2"><span lang="en">Visitors don’t just attend a concert. They travel through the city, play along the way, and see what they created come back on stage.</span><span lang="ko">관객은 공연 하나를 보고 돌아가는 것이 아니라, 도시를 여행하며 놀고,<br>그 길에서 만든 것들이 무대 위로 돌아오는 것을 경험합니다.</span></p></div>
 <div class="pillars">
 <article style="--c:var(--flow)"><div class="pimg"><img src="assets/proposal/sensing.jpg?v=1" alt=""></div><div class="pk">01</div><h3>Sensing the City</h3><p><span lang="en">Each district’s architecture, culture, shops and nightscape are turned into music-led experiences you can see, hear, taste and move through.</span><span lang="ko">각 지역의 건축, 문화, 상권, 야경이 보고 듣고 맛보고 걸을 수 있는 음악 경험으로 바뀝니다.</span></p></article>
 <article style="--c:var(--spark)"><div class="pimg"><img src="assets/proposal/p-cover.jpg?v=3" alt=""></div><div class="pk">02</div><h3>Five Ways to Play</h3><p><span lang="en">Rhythm, Motion, Voice, Imagine and Connection. Five ways to make music part of your own journey.</span><span lang="ko">리듬, 움직임, 목소리, 상상, 연결. 음악을 나만의 여정으로 만드는 다섯 가지 방식.</span></p></article>
 <article style="--c:var(--pulse)"><div class="pimg"><img src="assets/proposal/about-stadium.png" alt=""></div><div class="pk">03</div><h3>One City, One Musical Journey</h3><p><span lang="en">The choices, voices, movements and memories you leave across the city flow into the performance and into your own personal content.</span><span lang="ko">도시 곳곳에 남긴 선택, 목소리, 움직임, 기억이 공연으로, 그리고 나만의 개인 콘텐츠로 이어집니다.</span></p></article>
 </div>
 <div class="intro">
-<div><div class="word">nori</div><div class="word-sub">놀이 · Korean for “play”</div></div>
+<div><div class="word"><img src="assets/brand/logo-nory-word-white.svg" alt="NORY"></div><div class="word-sub">놀이 · Korean for “play”</div></div>
 <div class="txt">
-<p><span lang="en">NORY comes from the Korean word <em>nori</em>, meaning play. In NORY CITY, play is not passive viewing. It is how you discover music, move, share your memories and tastes, and connect with people, cultures and places.</span><span lang="ko">NORY는 ‘놀이’를 뜻하는 한국어 <em>nori</em>에서 왔습니다. NORY CITY에서 놀이는 가만히 바라보는 것이 아닙니다. 음악을 발견하고, 움직이고, 기억과 취향을 표현하고, 사람과 문화와 장소를 연결하는 과정입니다.</span></p>
-<p class="dim"><span lang="en">The Wind of NORY CITY is a call that reawakens this sense of play. Those who follow it become Norians, completing their own Music Journey through the city’s music, spaces, people, food and images. When people rediscover music through play, the real city becomes NORY CITY.</span><span lang="ko">NORY CITY의 ‘바람’은 잊고 있던 놀이의 감각을 다시 깨우는 부름입니다. 그 바람을 따르는 사람은 노리안이 되어, 도시의 음악·공간·사람·음식·이미지를 따라 자신만의 Music Journey를 완성합니다. 사람들이 놀이로 음악을 다시 발견할 때, 현실의 도시는 NORY CITY가 됩니다.</span></p>
+<p><span lang="en">NORY comes from <em>놀이</em>, the Korean word for play.<br>In NORY CITY, play is not something you watch. It is how you discover music, move, and connect with people and places.</span><span lang="ko">NORY는 한국어 <em>‘놀이’</em>에서 왔습니다.<br>NORY CITY에서 놀이는 바라보는 것이 아니라, 음악을 발견하고 움직이고 사람과 장소를 잇는 일입니다.</span></p>
+
 </div>
 </div>
 <div class="ways-h">Five Ways to Play</div>
 <div class="lights-grid">
-<article class="l-card pulse"><span class="dot"></span><span class="nm">Rhythm</span><span class="na"><span lang="en">Nori-ai · Dugeun</span><span lang="ko">노리아이 · 두근</span></span><p><span lang="en">The memory of the first time your heart raced.</span><span lang="ko">처음 심장이 뛰던 순간의 기억.</span></p></article>
-<article class="l-card flow"><span class="dot"></span><span class="nm">Motion</span><span class="na"><span lang="en">Nori-ai · Daleum</span><span lang="ko">노리아이 · 달음</span></span><p><span lang="en">The memory of first running far on your own two feet.</span><span lang="ko">처음 두 발로 멀리 달려나가던 순간의 기억.</span></p></article>
-<article class="l-card echo"><span class="dot"></span><span class="nm">Voice</span><span class="na"><span lang="en">Nori-ai · Oechim</span><span lang="ko">노리아이 · 외침</span></span><p><span lang="en">The memory of first using your voice as loud as you could.</span><span lang="ko">처음 목소리를 마음껏 내질러본 순간의 기억.</span></p></article>
-<article class="l-card spark"><span class="dot"></span><span class="nm">Imagine</span><span class="na"><span lang="en">Nori-ai · Kkomjirak</span><span lang="ko">노리아이 · 꼼지락</span></span><p><span lang="en">The memory of first making something with your hands.</span><span lang="ko">처음 무언가를 손으로 만들어낸 순간의 기억.</span></p></article>
-<article class="l-card link"><span class="dot"></span><span class="nm">Connection</span><span class="na"><span lang="en">Nori-ai · Ieum</span><span lang="ko">노리아이 · 이음</span></span><p><span lang="en">The memory of first holding someone’s hand.</span><span lang="ko">처음 누군가와 손을 맞잡던 순간의 기억.</span></p></article>
+<article class="l-card pulse"><span class="dot"></span><span class="nm">Rhythm</span><span class="na"><span lang="en">Nori-ai · Dugeun</span><span lang="ko">노리아이 · 두근</span></span></article>
+<article class="l-card flow"><span class="dot"></span><span class="nm">Motion</span><span class="na"><span lang="en">Nori-ai · Daleum</span><span lang="ko">노리아이 · 달음</span></span></article>
+<article class="l-card echo"><span class="dot"></span><span class="nm">Voice</span><span class="na"><span lang="en">Nori-ai · Oechim</span><span lang="ko">노리아이 · 외침</span></span></article>
+<article class="l-card spark"><span class="dot"></span><span class="nm">Imagine</span><span class="na"><span lang="en">Nori-ai · Kkomjirak</span><span lang="ko">노리아이 · 꼼지락</span></span></article>
+<article class="l-card link"><span class="dot"></span><span class="nm">Connection</span><span class="na"><span lang="en">Nori-ai · Ieum</span><span lang="ko">노리아이 · 이음</span></span></article>
 </div>
 <div class="body-row">
-<div class="blk"><div class="lbl">Memory Tree</div><h3><span lang="en">Your play doesn’t disappear.</span><span lang="ko">당신의 놀이는 사라지지 않는다.</span></h3><p><span lang="en">The rhythms, movements, voices, imagination and connections created in the city gather in the Memory Tree, and reappear as music, light and video during the show.</span><span lang="ko">도시에서 만든 리듬, 움직임, 목소리, 상상, 연결은 메모리 트리에 쌓이고, 공연에서 음악과 빛, 영상으로 다시 나타납니다.</span></p></div>
-<div class="blk"><div class="lbl">NORY Echoes</div><h3><span lang="en">The night keeps echoing.</span><span lang="ko">공연이 끝나도 여운은 이어진다.</span></h3><p><span lang="en">After the performance, NORY Echoes carries these memories into a personal Echoes Film, exhibitions of what everyone created, and your next visit.</span><span lang="ko">공연이 끝난 뒤 NORY Echoes가 그 기억을 나만의 Echoes Film, 모두가 만든 결과 전시, 그리고 다음 방문으로 이어줍니다.</span></p></div>
+<div class="blk"><div class="lbl">Memory Tree</div><h3>Your play doesn’t disappear.</h3><p><span lang="en">The rhythms, movements, voices, imagination and connections created in the city gather in the Memory Tree, and reappear as music, light and video during the show.</span><span lang="ko">도시에서 만든 리듬, 움직임, 목소리, 상상, 연결은 메모리 트리에 쌓이고, 공연에서 음악과 빛, 영상으로 다시 나타납니다.</span></p></div>
+<div class="blk"><div class="lbl">NORY Echoes</div><h3>The night keeps echoing.</h3><p><span lang="en">After the performance, NORY Echoes carries these memories into a personal Echoes Film, exhibitions of what everyone created, and your next visit.</span><span lang="ko">공연이 끝난 뒤 NORY Echoes가 그 기억을 나만의 Echoes Film, 모두가 만든 결과 전시, 그리고 다음 방문으로 이어줍니다.</span></p></div>
 </div>
 </section>
 <section class="section-title-bg" style="--bg-img:url('../assets/proposal/journey-banner.jpg?v=3')" data-screen-label="02 Music Journey">
 <div class="kicker">N° 02 · Music Journey</div>
 <h2>Music <em>Journey</em></h2>
-<div class="sub-ko"><span lang="en">A concert at the heart. The whole city around it.</span><span lang="ko">공연을 중심에, 도시 전체를 그 둘레에.</span></div>
+<div class="sub-ko">A concert at the heart. The whole city around it.</div>
 </section>
 <section class="sec" id="journey">
-<div class="about-lead"><p class="a1"><span lang="en">Music takes over the city for weeks. Then everyone gathers in one stadium.</span><span lang="ko">몇 주 동안 음악이 도시를 채우고,<br>마지막 밤 모두가 스타디움에 모인다.</span></p><p class="a2"><span lang="en">Waterside concerts, garden soundwalks, AR trails, museum archives and river nights. Move from place to place and play along. Everything you leave behind is collected and comes together on one stage.</span><span lang="ko">물가의 공연, 정원의 사운드워크, AR 트레일, 박물관 아카이브, 강변의 밤. 이곳저곳을 다니며 함께 놀고, 그 길에서 남긴 모든 것이 모여 하나의 무대에서 만납니다.</span></p></div>
+<div class="j-lead"><p class="j1">Music fills the city.</p><p class="j2">On the final night, everyone gathers in <em>one stadium.</em></p></div>
 <div class="jflow">
-<article style="--c:var(--flow)"><div class="ph"><img src="assets/proposal/g-marina-ar.jpg?v=3" alt=""></div><div class="tx"><div class="st">Before · Across the city</div><h3><span lang="en">Many places, many music events</span><span lang="ko">여러 곳, 다양한 뮤직 이벤트</span></h3><p><span lang="en">Live sessions, exhibitions, AR and night programmes run across different neighbourhoods. Pick the ones you like and build your own route.</span><span lang="ko">라이브, 전시, AR, 야간 프로그램이 여러 동네에서 열립니다. 마음에 드는 것을 골라 나만의 동선을 만듭니다.</span></p></div></article>
-<article style="--c:var(--spark)"><div class="ph"><img src="assets/proposal/g-library.jpg?v=3" alt=""></div><div class="tx"><div class="st">Collect · Memory Tree</div><h3><span lang="en">Your play is saved</span><span lang="ko">당신의 놀이가 쌓인다</span></h3><p><span lang="en">Every rhythm, voice, choice and photo you leave along the way is gathered in the Memory Tree.</span><span lang="ko">길 위에서 남긴 리듬, 목소리, 선택, 사진이 모두 메모리 트리에 모입니다.</span></p></div></article>
-<article style="--c:var(--pulse)"><div class="ph"><img src="assets/proposal/next-banner.jpg?v=3" alt=""></div><div class="tx"><div class="st">Main · Stadium Concert</div><h3><span lang="en">Everyone gathers on one night</span><span lang="ko">하룻밤, 모두가 모인다</span></h3><p><span lang="en">The journeys of thousands come together in the stadium and return as music, light and video in one shared finale.</span><span lang="ko">수많은 사람의 여정이 스타디움에 모여, 음악과 빛과 영상으로 하나의 피날레가 됩니다.</span></p></div></article>
-<article style="--c:var(--link)"><div class="ph"><img src="assets/proposal/g-afterglow.jpg?v=3" alt=""></div><div class="tx"><div class="st">After · NORY Echoes</div><h3><span lang="en">The night keeps echoing</span><span lang="ko">여운은 계속된다</span></h3><p><span lang="en">Personal Echoes Films, result exhibitions and encore lives carry the memory into the following weeks and your next visit.</span><span lang="ko">나만의 Echoes Film, 결과 전시, 앙코르 공연이 그 기억을 다음 몇 주와 다음 방문으로 이어갑니다.</span></p></div></article>
+<article style="--c:var(--flow)"><div class="tx"><div class="st">Before · Across the city</div><h3>Many places, many music events</h3><p><span lang="en">Live sessions, exhibitions, AR and night programmes run across different neighbourhoods. Pick the ones you like and build your own route.</span><span lang="ko">라이브, 전시, AR, 야간 프로그램이 여러 동네에서 열립니다. 마음에 드는 것을 골라 나만의 동선을 만듭니다.</span></p></div></article>
+<article style="--c:var(--spark)"><div class="tx"><div class="st">Collect · Memory Tree</div><h3>Your play is saved</h3><p><span lang="en">Every rhythm, voice, choice and photo you leave along the way is gathered in the Memory Tree.</span><span lang="ko">길 위에서 남긴 리듬, 목소리, 선택, 사진이 모두 메모리 트리에 모입니다.</span></p></div></article>
+<article style="--c:var(--pulse)"><div class="tx"><div class="st">Main · Stadium Concert</div><h3>Everyone gathers on one night</h3><p><span lang="en">The journeys of thousands come together in the stadium and return as music, light and video in one shared finale.</span><span lang="ko">수많은 사람의 여정이 스타디움에 모여, 음악과 빛과 영상으로 하나의 피날레가 됩니다.</span></p></div></article>
+<article style="--c:var(--link)"><div class="tx"><div class="st">After · NORY Echoes</div><h3>The night keeps echoing</h3><p><span lang="en">Personal Echoes Films, exhibitions of what everyone made and encore shows carry the memory on, all the way to your next visit.</span><span lang="ko">나만의 Echoes Film, 모두가 만든 결과 전시, 앙코르 공연이 그 기억을 다음 방문까지 이어갑니다.</span></p></div></article>
 </div>
+<figure class="j-band"><img src="assets/proposal/wf-district.jpg?v=1" alt="Waterfront festival concept" loading="lazy"><figcaption><strong>The city becomes <em>the stage</em></strong><span><span lang="en">Waterfronts, museums, streets and night markets turn into stages for live music, light and media art.</span><span lang="ko">물가, 박물관, 거리, 야시장이 라이브 음악과 빛, 미디어아트의 무대가 됩니다.</span></span><ul class="j-chips"><li>AR Music Trail</li><li>Media Façade</li><li>Night AR Walk</li><li>Creator Lab</li><li>Food &amp; Market Route</li><li>Stay &amp; Play</li></ul></figcaption></figure>
 <div class="mapblk">
-<div class="map-h"><div class="k">Example · Singapore concept</div><h3>10 anchors, 5 routes, <em>one finale</em></h3><p><span lang="en">Music events spread across six districts, linked by walking routes that all lead to the main concert at the stadium.</span><span lang="ko">여섯 개 지역에 펼쳐진 뮤직 이벤트가 도보 루트로 이어지고, 모든 길은 메인 콘서트가 열리는 스타디움으로 향합니다.</span></p></div>
-<div class="map-img"><img src="assets/proposal/map-clean.jpg?v=1" alt="NORY CITY Singapore concept map"></div>
-<ol class="anchors"><li style="--c:var(--flow)"><span class="n">1</span><strong>Marina Bay Waterfront</strong><em>Waterfront</em></li><li style="--c:var(--flow)"><span class="n">2</span><strong>ArtScience Museum</strong><em>Waterfront</em></li><li style="--c:var(--spark)"><span class="n">3</span><strong>Gardens by the Bay</strong><em>Nature</em></li><li style="--c:var(--link)"><span class="n">4</span><strong>National Museum</strong><em>Heritage</em></li><li style="--c:var(--echo)"><span class="n">5</span><strong>Orchard Road</strong><em>Retail</em></li><li style="--c:var(--flow)"><span class="n">6</span><strong>Esplanade</strong><em>Performing Arts</em></li><li style="--c:var(--link)"><span class="n">7</span><strong>Bras Basah · Bugis</strong><em>Creative Heritage</em></li><li style="--c:var(--echo)"><span class="n">8</span><strong>Kampong Gelam</strong><em>Neighbourhood</em></li><li style="--c:var(--link)"><span class="n">9</span><strong>Civic District</strong><em>Civic Culture</em></li><li style="--c:var(--pulse)"><span class="n">10</span><strong>Clarke Quay</strong><em>River Night</em></li><li class="fin"><span class="n">★</span><strong>National Stadium</strong><em>Main Concert</em></li></ol>
+<div class="map-h"><div class="k">Example · Singapore concept</div><h3>6 anchors, <em>one finale</em></h3><p><span lang="en">Five anchors across the city, each with its own music events, are linked by walking routes. Every route leads to the sixth anchor: the Main Live at the National Stadium.</span><span lang="ko">도시 곳곳의 다섯 개 앵커에서 각기 다른 뮤직 이벤트가 열리고, 도보 루트로 서로 이어집니다. 모든 길은 여섯 번째 앵커인 내셔널 스타디움의 Main Live로 향합니다.</span></p></div>
+<div class="map-img"><img src="assets/proposal/map-6anchors.jpg" alt="NORY CITY Singapore 6 anchor music journey map"></div>
+<ol class="anchors"><li style="--c:#3d7bff"><span class="n">1</span><strong>Raffles City · Civic</strong><em>Civic</em></li><li style="--c:#29d2ff"><span class="n">2</span><strong>MBS · Esplanade</strong><em>Waterfront</em></li><li style="--c:#7ed957"><span class="n">3</span><strong>Orchard Road</strong><em>Retail</em></li><li style="--c:#b86bff"><span class="n">4</span><strong>Bras Basah · Bugis</strong><em>Creative Heritage</em></li><li style="--c:#ff7a1f"><span class="n">5</span><strong>Clarke Quay</strong><em>River Night</em></li><li class="fin" style="--c:#ff3d8b"><span class="n">6</span><strong>National Stadium</strong><em>Main Live · Finale</em></li></ol>
 </div>
 
-<div class="jh" id="live"><div class="k">At the heart · Live</div><h3>Main Live, Anchor Live &amp; <em>Special Live</em></h3><div class="note">Stadium finale + mid-size concerts</div></div>
-<article class="main-live"><img src="assets/proposal/main-stadium.jpg" alt="Main stadium concert"><span class="pin">Stadium · Final Night</span><div class="info"><div class="role">Main Live · One stage</div><div class="name">K-pop <em style="color:var(--pulse);font-style:normal">×</em> Global Pop</div><p><span lang="en">Only at NORY CITY: K-pop and global pop headliners share one stadium stage on the final night, performing together for one audience. The memories collected across the city light up the show.</span><span lang="ko">NORY CITY만의 무대. 마지막 밤, K-pop과 글로벌 팝 헤드라이너가 같은 스타디움 무대에 함께 섭니다. 도시 곳곳에서 모은 기억이 공연의 빛이 됩니다.</span></p></div></article>
-<div class="live-grid ml-grid" style="position:relative">
-<article class="hl-c"><div class="ph"><img src="assets/headliner-kpop.webp" alt="K-pop headliner"><span class="pin">Main Live · K-pop</span></div><div class="info"><div class="role">K-pop Headliner</div></div></article>
-<article class="hl-c"><div class="ph"><img src="assets/headliner-western.webp" alt="Global pop headliner"><span class="pin">Main Live · Global Pop</span></div><div class="info"><div class="role">Global Pop Headliner</div></div></article>
-<span class="ml-x" aria-hidden="true" style="position:absolute;left:50%;top:38%;transform:translate(-50%,-50%);z-index:2;width:64px;height:64px;border-radius:50%;display:grid;place-items:center;background:var(--pulse);color:#fff;font-size:30px;line-height:1">×</span></div>
-<div class="sub-h" style="margin:56px 0 16px;font-size:11px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--paper-dim)"><span lang="en">Across the season · Mid-size concerts</span><span lang="ko">시즌 내내 · 중형 공연</span></div>
+<div class="jh"><div class="k">Across the city</div><h3>Music events <em>everywhere</em></h3><div class="note">Concept images</div></div>
+<div class="gal"><figure><img src="assets/proposal/hk-waterfront.png" alt="" loading="lazy"><figcaption><strong>Waterfront Crossover Live</strong><span><span lang="en">Free concerts at the water’s edge as the skyline lights up.</span><span lang="ko">스카이라인이 빛나는 물가에서 열리는 무료 공연.</span></span></figcaption></figure><figure><img src="assets/proposal/hk-memory.png" alt="" loading="lazy"><figcaption><strong>Music Memory Room</strong><span><span lang="en">Your voice and memories become generative art.</span><span lang="ko">당신의 목소리와 기억이 제너러티브 아트가 됩니다.</span></span></figcaption></figure><figure><img src="assets/proposal/g-gardens.jpg?v=3" alt="" loading="lazy"><figcaption><strong>Garden Soundwalk</strong><span><span lang="en">Headphone walks through the gardens at dusk.</span><span lang="ko">해질녘 정원을 걷는 헤드폰 사운드워크.</span></span></figcaption></figure><figure><img src="assets/proposal/g-orchard.jpg?v=3" alt="" loading="lazy"><figcaption><strong>OST Style Avenue</strong><span><span lang="en">Drama soundtracks meet fashion, retail and AR.</span><span lang="ko">드라마 OST가 패션, 리테일, AR과 만납니다.</span></span></figcaption></figure><figure><img src="assets/proposal/g-river.jpg?v=3" alt="" loading="lazy"><figcaption><strong>River Music Night</strong><span><span lang="en">Live acoustic sets with dinner by the river.</span><span lang="ko">강변에서 저녁과 함께 즐기는 어쿠스틱 라이브.</span></span></figcaption></figure><figure><img src="assets/proposal/hk-creator.png" alt="" loading="lazy"><figcaption><strong>Night Music Campus</strong><span><span lang="en">Young designers show music-inspired art and merch.</span><span lang="ko">젊은 디자이너들의 음악 작품과 굿즈 전시.</span></span></figcaption></figure></div>
+<div class="jh"><div class="k">How it works · Tech</div><h3>Play with <em>the city</em></h3><div class="note">App · AR · Memory Tree</div></div>
+<div class="tech">
+<article class="t-img"><img src="assets/proposal/hk-app.png" alt="NORY app concept" loading="lazy"><div class="tx"><div class="no">01 · NORY App</div><h4><span lang="en">Your journey in one app</span><span lang="ko">여정을 하나의 앱으로</span></h4><p><span lang="en">Book concerts, stays and City Pass, choose a pre-planned course or build your own, and check in at each anchor.</span><span lang="ko">공연·숙박·시티패스 예약, 미리 짜인 여행 코스 선택 또는 나만의 동선 만들기, 앵커별 체크인까지.</span></p></div></article>
+<article class="t-img"><img src="assets/proposal/g-marina-ar.jpg?v=3" alt="AR music trail concept" loading="lazy"><div class="tx"><div class="no">02 · AR Music Trail</div><h4><span lang="en">Music hidden in the city</span><span lang="ko">도시에 숨은 음악</span></h4><p><span lang="en">Point your phone at the skyline and streets to find music, light and stories.</span><span lang="ko">휴대폰을 비추면 거리와 스카이라인에서 음악, 빛, 이야기가 나타납니다.</span></p></div></article>
+<article class="t-tx" style="--c:var(--spark)"><div class="no">03 · Memory Tree</div><h4><span lang="en">What you leave, the show plays</span><span lang="ko">남긴 것이 공연이 된다</span></h4><p><span lang="en">Rhythms, voices and photos from the journey become music, light and video at Main Live.</span><span lang="ko">여정에서 남긴 리듬, 목소리, 사진이 Main Live의 음악과 빛, 영상이 됩니다.</span></p></article>
+<article class="t-tx" style="--c:var(--link)"><div class="no">04 · Echoes Film</div><h4><span lang="en">Your night, as a film</span><span lang="ko">나의 밤이 영상으로</span></h4><p><span lang="en">After the show, a personal film of your journey arrives on your phone.</span><span lang="ko">공연이 끝나면 나만의 여정이 담긴 영상이 휴대폰으로 도착합니다.</span></p></article>
+</div>
+<div class="jh"><div class="k">On the journey · Live</div><h3>Anchor Live &amp; <em>Special Live</em></h3><div class="note">Mid-size concerts</div></div>
+
 <div class="live-grid">
-<article class="hl-c"><div class="ph"><img src="assets/proposal/district-waterfront.jpg?v=3" alt="Headline concert"><span class="pin">Mid-size · Solo Concert</span></div><div class="info"><div class="role">Headline Concert Series</div><div class="name">Anchor Live</div><p><span lang="en">Independent concerts by global headliners and K-pop vocalists with proven fandom across Asia. Dates are spaced so you can catch more than one, with the city in between.</span><span lang="ko">아시아 전역에서 검증된 팬덤을 가진 글로벌 헤드라이너와 K-pop 보컬리스트의 단독 콘서트. 여러 공연을 볼 수 있도록 날짜를 나누고, 그 사이를 도시가 채웁니다.</span></p></div></article>
+<article class="hl-c"><div class="ph"><img src="assets/proposal/district-waterfront.jpg?v=3" alt="Solo concert"><span class="pin">Mid-size · Solo Concert</span></div><div class="info"><div class="role">Solo Concert Series</div><div class="name">Anchor Live</div><p><span lang="en">Solo concerts by K-pop and pop vocalists with loyal fan bases across Asia. Dates are spaced so you can catch more than one, with the city in between.</span><span lang="ko">아시아 전역에 탄탄한 팬덤을 가진 K-pop·팝 보컬리스트의 단독 콘서트. 여러 공연을 볼 수 있도록 날짜를 나누고, 그 사이를 도시가 채웁니다.</span></p></div></article>
 <article class="hl-c"><div class="ph"><img src="assets/proposal/live-special.jpg?v=3" alt="Special performance"><span class="pin">Mid-size · 2,000–3,000 seats</span></div><div class="info"><div class="role">OST &amp; Genre Stages</div><div class="name">Special Live</div><p><span lang="en">Drama OSTs, acoustic vocals, bands and classical crossover, each with a clear genre and fan base, in 2,000 to 3,000-seat halls where every seat feels close.</span><span lang="ko">드라마 OST, 어쿠스틱 보컬, 밴드, 클래식 크로스오버. 장르와 팬층이 분명한 공연을 2,000~3,000석 공연장에서, 어느 자리에서도 가깝게.</span></p></div></article>
 </div>
-<div class="jh"><div class="k">Around it · The City</div><h3>The city becomes <em>the stage</em></h3><div class="note">Connected by transit</div></div>
-<div class="district" style="--c:var(--flow)">
-<div class="ph-d"><img src="assets/proposal/wf-district.jpg?v=1" alt="Waterfront festival concept"></div>
-<div class="tx">
-<div class="k">01 · Waterfront</div>
-<h3>The Waterfront</h3>
-<p><span lang="en">Where the water meets the skyline, the city becomes a stage for live music, light and media art.</span><span lang="ko">물과 스카이라인이 만나는 곳에서, 도시는 라이브 음악과 빛, 미디어아트의 무대가 됩니다.</span></p>
-<ul>
-<li><strong class="rl">Waterfront Live</strong><span><span lang="en">Concerts and pre-shows, with short waterside moments after dark</span><span lang="ko">공연과 프리쇼, 해진 뒤 물가에서의 짧은 순간들</span></span></li>
-<li><strong class="rl">AR Music Trail</strong><span><span lang="en">Discover music, light and city images along the water</span><span lang="ko">물가를 따라 음악과 빛, 도시의 이미지를 발견</span></span></li>
-<li><strong class="rl">Media Art &amp; City Mix</strong><span><span lang="en">Your choices and movement shape the night-time visuals</span><span lang="ko">당신의 선택과 움직임이 밤의 영상을 만든다</span></span></li>
-<li><strong class="rl">Stay &amp; Play Route</strong><span><span lang="en">Exhibitions and dinner before the show, nightscape and shopping after</span><span lang="ko">공연 전엔 전시와 식사, 공연 후엔 야경과 쇼핑</span></span></li>
-</ul>
-</div>
-</div>
-<div class="district rev" style="--c:var(--echo)">
-<div class="ph-d"><img src="assets/proposal/district-creative.jpg?v=3" alt="Media façade concept"></div>
-<div class="tx">
-<div class="k">02 · Creative Quarter</div>
-<h3>The Creative Quarter</h3>
-<p><span lang="en">Museums, art schools, creators and heritage streets, connected by a night-time music journey.</span><span lang="ko">박물관, 예술학교, 크리에이터, 헤리티지 거리를 밤의 음악 여정으로 잇습니다.</span></p>
-<ul>
-<li><strong class="rl">Museum Music Archive</strong><span><span lang="en">Memories of the city’s music in sound and image</span><span lang="ko">도시의 음악 기억을 소리와 이미지로</span></span></li>
-<li><strong class="rl">Media Façade &amp; Night AR Walk</strong><span><span lang="en">Music-led media art on façades and streets</span><span lang="ko">건물 파사드와 거리 위의 음악 미디어아트</span></span></li>
-<li><strong class="rl">Creator Lab</strong><span><span lang="en">Local students and creators make content for the festival</span><span lang="ko">현지 학생과 크리에이터가 함께 만드는 페스티벌 콘텐츠</span></span></li>
-<li><strong class="rl">Culture Market &amp; Food Route</strong><span><span lang="en">Creator goods and heritage dining nearby</span><span lang="ko">크리에이터 굿즈와 헤리티지 다이닝</span></span></li>
-</ul>
-</div>
-</div>
-<div class="jh"><div class="k">Across the city</div><h3>Music events <em>everywhere</em></h3><div class="note">Concept images</div></div>
-<div class="gal"><figure><img src="assets/proposal/hk-waterfront.png" alt="" loading="lazy"><figcaption><strong>Waterfront Crossover Live</strong><span><span lang="en">Free concerts at the water’s edge as the skyline lights up.</span><span lang="ko">스카이라인이 빛나는 물가에서 열리는 무료 공연.</span></span></figcaption></figure><figure><img src="assets/proposal/hk-memory.png" alt="" loading="lazy"><figcaption><strong>Music Memory Room</strong><span><span lang="en">Your voice and memories become generative art.</span><span lang="ko">당신의 목소리와 기억이 제너러티브 아트가 됩니다.</span></span></figcaption></figure><figure><img src="assets/proposal/g-gardens.jpg?v=3" alt="" loading="lazy"><figcaption><strong>Garden Soundwalk</strong><span><span lang="en">Headphone walks through the gardens at dusk.</span><span lang="ko">해질녘 정원을 걷는 헤드폰 사운드워크.</span></span></figcaption></figure><figure><img src="assets/proposal/g-library.jpg?v=3" alt="" loading="lazy"><figcaption><strong>NORY Memory Library</strong><span><span lang="en">A huge archive of the city’s music memories.</span><span lang="ko">도시의 음악 기억을 모은 거대한 아카이브.</span></span></figcaption></figure><figure><img src="assets/proposal/g-orchard.jpg?v=3" alt="" loading="lazy"><figcaption><strong>OST Style Avenue</strong><span><span lang="en">Drama soundtracks meet fashion, retail and AR.</span><span lang="ko">드라마 OST가 패션, 리테일, AR과 만납니다.</span></span></figcaption></figure><figure><img src="assets/proposal/g-river.jpg?v=3" alt="" loading="lazy"><figcaption><strong>River Music Night</strong><span><span lang="en">Live acoustic sets with dinner by the river.</span><span lang="ko">강변에서 저녁과 함께 즐기는 어쿠스틱 라이브.</span></span></figcaption></figure><figure><img src="assets/proposal/hk-creator.png" alt="" loading="lazy"><figcaption><strong>Night Music Campus</strong><span><span lang="en">Young designers show music-inspired art and merch.</span><span lang="ko">젊은 디자이너들의 음악 작품과 굿즈 전시.</span></span></figcaption></figure><figure><img src="assets/proposal/g-raffles.jpg?v=3" alt="" loading="lazy"><figcaption><strong>Lunch Sound Break</strong><span><span lang="en">Midday sessions for office crowds and visitors.</span><span lang="ko">직장인과 여행자를 위한 점심시간 공연.</span></span></figcaption></figure><figure><img src="assets/proposal/g-silver.jpg?v=3" alt="" loading="lazy"><figcaption><strong>Garden Music Walk</strong><span><span lang="en">A night trail of artist stories and acoustic sets.</span><span lang="ko">아티스트 이야기와 어쿠스틱 공연이 이어지는 밤의 산책길.</span></span></figcaption></figure></div>
-<div class="body-row">
-<div class="blk"><div class="lbl">Made for the city</div><h3><span lang="en">Indoors by day, alive at night.</span><span lang="ko">낮에는 실내에서, 밤에는 생생하게.</span></h3><p><span lang="en">Daytime experiences sit in indoor venues close to public transit. Waterfront and nightscape programmes run in short sessions after sunset.</span><span lang="ko">낮 프로그램은 대중교통 가까운 실내 공간에서, 워터프론트와 야경 프로그램은 해가 진 뒤 짧은 세션으로 운영됩니다.</span></p></div>
-<div class="blk"><div class="lbl">Book it as one</div><h3><span lang="en">Concert, stay and city, together.</span><span lang="ko">공연, 숙박, 도시를 한 번에.</span></h3><p><span lang="en">Concert tickets, hotel stays, City Pass and timed experiences will be available together. Travel packages are announced with ticket opening.</span><span lang="ko">공연 티켓, 호텔, 시티패스, 시간 예약 프로그램을 함께 예약할 수 있습니다. 여행 패키지는 티켓 오픈과 함께 공개됩니다.</span></p></div>
+
+</section>
+<section class="section-title-bg" id="live" style="--bg-img:url('../assets/proposal/main-stadium.jpg')" data-screen-label="03 Main Live">
+<div class="kicker">N° 03 · Main Live</div>
+<h2>Main <em>Live</em></h2>
+<div class="sub-ko">One stadium. One final night.</div>
+</section>
+<section class="sec" id="main-live">
+
+<article class="main-live"><img src="assets/proposal/main-stadium.jpg" alt="Main stadium concert"><span class="pin">Stadium · Final Night</span><div class="info"><div class="role">Main Live · One stage</div><div class="name"><span class="nw">K-pop</span> <em>×</em> <span class="nw">Global Pop</span></div><p><span lang="en">Only at NORY CITY.<br>K-pop and global pop headliners share one stadium stage on the final night, performing together for one audience. The memories collected across the city light up the show.</span><span lang="ko">NORY CITY만의 무대.<br>마지막 밤, K-pop과 글로벌 팝 헤드라이너가 같은 스타디움 무대에 함께 섭니다. 도시 곳곳에서 모은 기억이 공연의 빛이 됩니다.</span></p></div></article>
+<div class="tba">Lineup TBA</div>
+<div class="live-grid ml-grid" style="position:relative">
+<article class="hl-c"><div class="ph"><img src="assets/headliner-kpop-v2.webp" alt="K-pop headliner"><span class="pin">Main Live · K-pop</span></div><div class="info"><div class="role">K-pop Headliner</div></div></article>
+<article class="hl-c"><div class="ph"><img src="assets/headliner-global-v2.webp" alt="Global pop headliner"><span class="pin">Main Live · Global Pop</span></div><div class="info"><div class="role">Global Pop Headliner</div></div></article>
 </div>
 </section>
-<section class="section-title-bg" style="--bg-img:url('../assets/proposal/next-banner.jpg?v=3')" data-screen-label="03 What's Next">
-<div class="kicker">N° 03 · What's Next</div>
-<h2>From One City <em>to the World</em></h2>
-<div class="sub-ko"><span lang="en">Validate. Integrate. Scale. One city at a time.</span><span lang="ko">검증하고, 연결하고, 확장한다. 한 도시씩.</span></div>
-</section>
-<section class="sec" id="next">
-<div class="road">
-<article style="--c:var(--flow)"><span class="now">Now planning</span><div class="yr">2027</div><div class="st">Validate · Music Journey</div><h3><span lang="en">The first NORY CITY opens.</span><span lang="ko">첫 번째 NORY CITY가 열린다.</span></h3><p><span lang="en">Anchor Live and Special Live, indoor exhibitions, AR and night programmes across two cultural districts of the first host city.</span><span lang="ko">첫 개최 도시의 두 문화권역에서 Anchor Live와 Special Live, 실내 전시, AR, 야간 프로그램이 펼쳐집니다.</span></p></article>
-<article style="--c:var(--pulse)"><span class="now">Next</span><div class="yr">2028</div><div class="st">Integrate · Main Live</div><h3><span lang="en">The whole city connects.</span><span lang="ko">도시 전체가 연결된다.</span></h3><p><span lang="en">A flagship Main Live connects five neighbourhoods across the city with NORY Echoes. Experiences that begin across the city come together on stage and in personal content.</span><span lang="ko">플래그십 Main Live가 도시 다섯 개 지역, NORY Echoes와 연결됩니다. 도시에서 시작된 경험이 무대와 개인 콘텐츠로 완성됩니다.</span></p></article>
-<article style="--c:var(--link)"><span class="now">Beyond</span><div class="yr">2029+</div><div class="st">Scale · Global City Festival</div><h3><span lang="en">NORY CITY travels.</span><span lang="ko">NORY CITY가 여행을 떠난다.</span></h3><p><span lang="en">Music, media art, entertainment and retail combined into a global city festival, opening in new host cities around the world.</span><span lang="ko">음악, 미디어아트, 엔터테인먼트, 리테일을 결합한 글로벌 도시 축제로, 세계의 새로운 개최 도시에서 열립니다.</span></p></article>
-</div>
-</section>
+
 <section class="sec story-sec" id="story" data-screen-label="04 Story">
 <div class="story-wrap">
 <a href="story.html" class="book" aria-label="Read the story">
 <div class="book-in">
 <div class="b-back"></div><div class="b-spine"><span>NORY CITY · A STORY THAT RETURNS</span></div><div class="b-pages"></div>
-<div class="b-cover"><div class="b-top">NORY CITY · Storytelling</div><img src="assets/story/ch10-tree.png" alt=""><div class="b-title"><span lang="en">The Festival<br>Returns</span><span lang="ko">축제는<br>돌아온다</span></div></div>
+<div class="b-cover"><div class="b-top">NORY CITY · Storytelling</div><img src="assets/story/ch10-tree.webp" alt=""><div class="b-title"><span lang="en">The Festival<br>Returns</span><span lang="ko">축제는<br>돌아온다</span></div></div>
 </div>
 </a>
 <div class="tx">
-<div class="k">N° 04 · A Story That Returns</div>
+<div class="k">N° 04 · The Story of NORY CITY</div>
 <h2>The Festival <em>Returns</em></h2>
 <p><span lang="en">Every city was born from play. We simply forgot. A wind begins to blow, a blue key opens a gate, and a single tree lights up with everyone’s memories.</span><span lang="ko">모든 도시는 놀이에서 태어났다. 다만 그것을 잊었을 뿐이다. 바람이 불고, 푸른 열쇠가 문을 열고, 한 그루의 나무가 모두의 기억으로 환해진다.</span></p>
 <div class="meta">13 chapters · Illustrated story</div>
@@ -355,8 +376,27 @@ html[lang="ko"] .sec .head-c h2{line-height:1.1}
 </div>
 </div>
 </section>
+<section class="section-title-bg" style="--bg-img:url('../assets/proposal/next-banner.jpg?v=3')" data-screen-label="05 What's Next">
+<div class="kicker">N° 05 · What's Next</div>
+<h2>From One City <em>to the World</em></h2>
+<div class="sub-ko">Validate. Integrate. Scale. One city at a time.</div>
+</section>
+<section class="sec" id="next">
+<div class="road">
+<article style="--c:var(--flow)"><span class="now">Now planning</span><div class="yr">2027</div><div class="st">Validate · Music Journey</div><h3>The first NORY CITY opens.</h3><p><span lang="en">Anchor Live and Special Live, indoor exhibitions, AR and night programmes across two cultural districts of the first host city.</span><span lang="ko">첫 개최 도시의 두 문화권역에서 Anchor Live와 Special Live, 실내 전시, AR, 야간 프로그램이 펼쳐집니다.</span></p></article>
+<article style="--c:var(--pulse)"><span class="now">Next</span><div class="yr">2028</div><div class="st">Integrate · Main Live</div><h3>The whole city connects.</h3><p><span lang="en">A flagship Main Live brings five neighbourhoods and NORY Echoes together. Experiences that begin across the city come together on stage and in personal content.</span><span lang="ko">플래그십 Main Live를 중심으로 도시의 다섯 개 지역과 NORY Echoes가 하나로 연결됩니다. 도시에서 시작된 경험이 무대와 개인 콘텐츠로 완성됩니다.</span></p></article>
+<article style="--c:var(--link)"><span class="now">Beyond</span><div class="yr">2029+</div><div class="st">Scale · Global City Festival</div><h3>NORY CITY travels.</h3><p><span lang="en">Music, media art, entertainment and retail combined into a global city festival, opening in new host cities around the world.</span><span lang="ko">음악, 미디어아트, 엔터테인먼트, 리테일을 결합한 글로벌 도시 축제로, 세계의 새로운 개최 도시에서 열립니다.</span></p></article>
+</div>
+<div class="book-h" id="tickets"><div class="k">Tickets &amp; Passes</div><h3>Book the concert, <em>play the city.</em></h3><p><span lang="en">Choose a concert, add the city, or book a pre-planned course for the whole trip.</span><span lang="ko">공연만, 도시 체험까지, 또는 미리 짜인 여행 코스로 여행 전체를 한 번에 예약할 수 있습니다.</span></p></div>
+<div class="tix">
+<article style="--c:var(--pulse)"><div class="no">01</div><h4>Concert Ticket</h4><p><span lang="en">Main Live, Anchor Live and Special Live, each booked on its own.</span><span lang="ko">Main Live, Anchor Live, Special Live를 공연별로 예약.</span></p></article>
+<article style="--c:var(--flow)"><div class="no">02</div><h4>City Pass</h4><p><span lang="en">AR trails, exhibitions and timed experiences across all anchors.</span><span lang="ko">모든 앵커의 AR 트레일, 전시, 시간 예약 프로그램을 하나의 패스로.</span></p></article>
+<article class="best" style="--c:var(--spark)"><div class="no">03</div><h4>Stay &amp; Play Course</h4><p><span lang="en">Pre-planned travel courses with concert, hotel, City Pass and timed experiences already scheduled. One booking, the whole trip.</span><span lang="ko">공연, 호텔, 시티패스, 시간 예약 프로그램이 일정에 맞춰 미리 짜인 여행 코스. 한 번의 예약으로 여행 전체를.</span></p></article>
+</div>
+<p class="tix-note"><span lang="en">Indoor programmes by day near public transit, waterfront and night programmes after sunset. Travel packages open with ticket sales.</span><span lang="ko">낮에는 대중교통 가까운 실내에서, 해가 진 뒤에는 워터프론트와 야경 프로그램으로. 여행 패키지는 티켓 오픈과 함께 공개됩니다.</span></p></section>
+
 <section class="join" id="join" data-screen-label="09 Join">
-<div class="kicker" style="font-size:11px;font-weight:500;letter-spacing:.28em;text-transform:uppercase;color:var(--gold)">Pre-registration</div>
+<div class="kicker" style="font-size:12px;font-weight:500;letter-spacing:.28em;text-transform:uppercase;color:var(--gold)">Pre-registration</div>
 <h2>Become a <em>Norian</em></h2>
 <p><span lang="en">Be first to hear about the host city, lineup, ticket opening and travel packages.</span><span lang="ko">개최 도시, 라인업, 티켓 오픈, 여행 패키지 소식을 가장 먼저 받아보세요.</span></p>
 <p><span lang="en">Pre-registration is coming soon.</span><span lang="ko">사전등록은 준비 중입니다.</span></p>
@@ -365,7 +405,7 @@ html[lang="ko"] .sec .head-c h2{line-height:1.1}
 </section>
 <footer class="foot-c">
 <div class="foot-c-top slim">
-<div class="foot-c-brand"><img src="assets/brand/logo-nory-white.png" alt="NORY CITY"><p><span lang="en">NORY CITY. A global play-based music festival. The city is waking up. Coming 2027.</span><span lang="ko">NORY CITY. 글로벌 플레이 기반 뮤직 페스티벌. 도시가 깨어나고 있습니다. Coming 2027.</span></p></div>
+<div class="foot-c-brand"><img src="assets/brand/logo-nory-white.png" alt="NORY CITY"><p>Music becomes play.<br>The city becomes the playground.</p></div>
 <div class="foot-c-col"><h5>Festival</h5><a href="#about">About</a><a href="story.html">Story</a><a href="#journey">Journey</a></div>
 <div class="foot-c-col"><h5>Explore</h5><a href="#live">Live</a><a href="#next">What's Next</a><a href="#join">Pre-register</a></div>
 </div>
@@ -378,6 +418,7 @@ html[lang="ko"] .sec .head-c h2{line-height:1.1}
 (function(){var k='nory-lang',s=localStorage.getItem(k),l=s||((navigator.language||'en').toLowerCase().indexOf('ko')===0?'ko':'en');
 function set(v){document.documentElement.lang=v;localStorage.setItem(k,v);document.querySelectorAll('.lang-sw button').forEach(function(b){b.classList.toggle('on',b.dataset.l===v)});document.title=v==='ko'?'NORY CITY — 글로벌 플레이 기반 뮤직 페스티벌':'NORY CITY — A Global Play-based Music Festival';}
 document.querySelectorAll('.lang-sw button').forEach(function(b){b.onclick=function(){set(b.dataset.l)}});set(l);})();
+(function(){var n=document.querySelector('.topnav');function f(){n.classList.toggle('scrolled',scrollY>40)}addEventListener('scroll',f,{passive:true});f();})();
 </script>
 </body>
 </html>

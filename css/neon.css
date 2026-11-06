@@ -48,7 +48,7 @@
 .neon .badge {
   position: fixed; top: 18px; right: 18px;
   z-index: 100;
-  font-size: 11px; font-weight: 500;
+  font-size:12px; font-weight: 500;
   letter-spacing: 0.22em; text-transform: uppercase;
   color: var(--paper);
   background: rgba(10, 8, 23, 0.7);
@@ -61,7 +61,7 @@
   color: var(--paper-dim);
   text-transform: none; letter-spacing: 0.06em;
   font-weight: 400; border-left: 1px solid rgba(255,255,255,0.18);
-  padding-left: 12px; font-size: 11px;
+  padding-left: 12px; font-size:12px;
 }
 .neon .badge a:hover { color: var(--gold); }
 
@@ -89,7 +89,7 @@
 .neon .hero-c .head-strip {
   display: flex; justify-content: space-between; align-items: center;
   gap: 32px;
-  font-size: 11px; font-weight: 500;
+  font-size:12px; font-weight: 500;
   letter-spacing: 0.22em; text-transform: uppercase;
   color: var(--paper);
 }
@@ -121,7 +121,7 @@
 }
 .neon .hero-c .sub em {
   font-style: normal; font-weight: 600;
-  background: linear-gradient(90deg, var(--pulse), var(--echo), var(--spark), var(--flow), var(--link));
+  background: linear-gradient(90deg,var(--e1,var(--flow)),var(--e2,var(--link)),var(--e3,var(--pulse)));
   -webkit-background-clip: text; background-clip: text;
   color: transparent;
 }
@@ -129,7 +129,7 @@
   display: flex; justify-content: center; gap: 14px; flex-wrap: wrap;
 }
 .neon .btn-c {
-  font-size: 13px; font-weight: 600;
+  font-size:14.5px; font-weight: 600;
   padding: 14px 24px;
   letter-spacing: 0.06em;
   display: inline-flex; align-items: center; gap: 12px;
@@ -162,7 +162,7 @@
   border-bottom: 1px solid var(--line);
 }
 .neon .sec .head-c .n {
-  font-size: 11px; font-weight: 600;
+  font-size:12px; font-weight: 600;
   letter-spacing: 0.22em; text-transform: uppercase;
   color: var(--paper-dim);
 }
@@ -180,7 +180,7 @@
   color: transparent;
 }
 .neon .sec .head-c .tag {
-  font-size: 10px; font-weight: 500;
+  font-size:12px; font-weight: 500;
   letter-spacing: 0.22em; text-transform: uppercase;
   color: var(--paper-dim);
   text-align: right; line-height: 1.7;
@@ -205,7 +205,7 @@
 .neon .feat .pin {
   position: absolute; bottom: 24px; left: 24px;
   display: flex; align-items: center; gap: 12px;
-  font-size: 11px; font-weight: 500;
+  font-size:12px; font-weight: 500;
   letter-spacing: 0.18em; text-transform: uppercase;
   color: var(--paper);
   padding: 8px 14px;
@@ -249,7 +249,7 @@
   letter-spacing: -0.01em;
 }
 .neon .l-card .ko {
-  font-size: 11px; font-weight: 400;
+  font-size:12px; font-weight: 400;
   letter-spacing: 0.18em; text-transform: uppercase;
   color: var(--paper-dim);
 }
@@ -265,7 +265,7 @@
 }
 .neon .body-row .blk { display: grid; gap: 12px; }
 .neon .body-row .blk .lbl {
-  font-size: 11px; font-weight: 600;
+  font-size:12px; font-weight: 600;
   letter-spacing: 0.22em; text-transform: uppercase;
   color: var(--gold);
 }
@@ -274,7 +274,7 @@
   line-height: 1.2; color: var(--paper);
 }
 .neon .body-row .blk p {
-  font-size: 14.5px; line-height: 1.65; color: var(--paper-dim);
+  font-size:15.5px; line-height: 1.65; color: var(--paper-dim);
   max-width: 50ch;
 }
 
@@ -295,7 +295,7 @@
 }
 .neon .stadium .label {
   position: absolute; bottom: 24px; right: 24px;
-  font-size: 12px; font-weight: 500;
+  font-size:13px; font-weight: 500;
   letter-spacing: 0.18em; text-transform: uppercase;
   color: var(--paper);
   padding: 10px 16px;
@@ -333,13 +333,13 @@
 }
 .neon .section-title-bg h2 em {
   font-style: normal; font-weight: 600;
-  background: linear-gradient(90deg, var(--pulse), var(--echo), var(--spark), var(--flow), var(--link));
+  background: linear-gradient(90deg,var(--e1,var(--flow)),var(--e2,var(--link)),var(--e3,var(--pulse)));
   -webkit-background-clip: text; background-clip: text;
   color: transparent;
 }
 .neon .section-title-bg .kicker {
   text-align: center;
-  font-size: 11px; font-weight: 500;
+  font-size:12px; font-weight: 500;
   letter-spacing: 0.28em; text-transform: uppercase;
   color: var(--gold); margin-bottom: 16px;
 }
@@ -403,7 +403,7 @@
   display: grid; gap: 10px;
 }
 .neon .card-glass .info .lbl {
-  font-size: 10px; font-weight: 500;
+  font-size:12px; font-weight: 500;
   letter-spacing: 0.2em; text-transform: uppercase;
   color: var(--gold);
 }
@@ -413,10 +413,10 @@
   color: var(--paper);
 }
 .neon .card-glass .info p {
-  font-size: 13.5px; line-height: 1.6; color: var(--paper-dim);
+  font-size:15px; line-height: 1.6; color: var(--paper-dim);
 }
 .neon .card-glass .info .more {
-  font-size: 10px; font-weight: 500;
+  font-size:12px; font-weight: 500;
   letter-spacing: 0.18em; text-transform: uppercase;
   color: var(--paper);
   padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.10);
@@ -450,7 +450,7 @@
 .neon .tier-c.general { --c-tier: var(--pulse); }
 .neon .tier-c.vip     { --c-tier: var(--gold); }
 .neon .tier-c .tag {
-  font-size: 10px; font-weight: 600;
+  font-size:12px; font-weight: 600;
   letter-spacing: 0.22em; text-transform: uppercase;
   color: var(--c-tier, var(--gold));
   display: inline-block;
@@ -468,7 +468,7 @@
   display: flex; align-items: baseline; gap: 8px;
 }
 .neon .tier-c .price .from {
-  font-size: 11px; font-weight: 500;
+  font-size:12px; font-weight: 500;
   letter-spacing: 0.18em; text-transform: uppercase;
   color: var(--paper-dim);
 }
@@ -477,14 +477,14 @@
   color: var(--paper); letter-spacing: -0.02em;
 }
 .neon .tier-c .price .ccy {
-  font-size: 12px; color: var(--paper-dim);
+  font-size:13px; color: var(--paper-dim);
 }
 .neon .tier-c ul {
   list-style: none; padding: 0; margin: 0;
   display: grid; gap: 10px;
 }
 .neon .tier-c ul li {
-  font-size: 13.5px; color: var(--paper-dim);
+  font-size:15px; color: var(--paper-dim);
   line-height: 1.5;
   padding-left: 16px; position: relative;
 }
@@ -513,7 +513,7 @@
 }
 .neon .city-c:hover { transform: translateY(-4px); border-color: var(--c-city); }
 .neon .city-c .ord {
-  font-size: 10px; font-weight: 500;
+  font-size:12px; font-weight: 500;
   letter-spacing: 0.22em; text-transform: uppercase;
   color: var(--paper-dim);
 }
@@ -523,16 +523,16 @@
   color: var(--paper);
 }
 .neon .city-c .flag {
-  font-size: 10px; font-weight: 500;
+  font-size:12px; font-weight: 500;
   letter-spacing: 0.18em; text-transform: uppercase;
   color: var(--c-city);
 }
 .neon .city-c .venue {
-  font-size: 13px; line-height: 1.5; color: var(--paper-dim);
+  font-size:14.5px; line-height: 1.5; color: var(--paper-dim);
 }
 .neon .city-c .venue strong { color: var(--paper); display: block; }
 .neon .city-c .date {
-  font-size: 11px; font-weight: 500;
+  font-size:12px; font-weight: 500;
   letter-spacing: 0.16em; text-transform: uppercase;
   color: var(--paper);
   padding-top: 10px; border-top: 1px solid rgba(255,255,255,0.10);
@@ -586,7 +586,7 @@
 }
 .neon .hl-c .ph .pin {
   position: absolute; top: 18px; left: 18px;
-  font-size: 10px; font-weight: 600;
+  font-size:12px; font-weight: 600;
   letter-spacing: 0.2em; text-transform: uppercase;
   color: var(--paper);
   padding: 6px 12px;
@@ -600,7 +600,7 @@
   display: grid; gap: 10px;
 }
 .neon .hl-c .role {
-  font-size: 10px; font-weight: 600;
+  font-size:12px; font-weight: 600;
   letter-spacing: 0.22em; text-transform: uppercase;
   color: var(--gold);
 }
@@ -610,13 +610,13 @@
   color: var(--paper);
 }
 .neon .hl-c .genre {
-  font-size: 12.5px; color: var(--paper-dim);
+  font-size:14px; color: var(--paper-dim);
 }
 .neon .hl-c .meta {
   padding-top: 14px; border-top: 1px solid rgba(255,255,255,0.10);
   margin-top: 4px;
   display: flex; justify-content: space-between;
-  font-size: 11px; font-weight: 500;
+  font-size:12px; font-weight: 500;
   letter-spacing: 0.14em; text-transform: uppercase;
   color: var(--paper-dim);
 }
@@ -639,28 +639,28 @@
   filter: drop-shadow(0 0 30px rgba(245,198,86,0.3));
 }
 .neon .foot-c-brand p {
-  font-size: 13.5px; line-height: 1.65; color: var(--paper-dim);
+  font-size:15px; line-height: 1.65; color: var(--paper-dim);
   max-width: 36ch;
 }
 .neon .foot-c-col h5 {
-  font-size: 11px; font-weight: 600;
+  font-size:12px; font-weight: 600;
   letter-spacing: 0.22em; text-transform: uppercase;
   color: var(--gold); margin-bottom: 14px;
 }
 .neon .foot-c-col a {
   display: block;
-  font-size: 13.5px; color: var(--paper-dim);
+  font-size:15px; color: var(--paper-dim);
   padding: 4px 0;
   transition: color 0.25s;
 }
 .neon .foot-c-col a:hover { color: var(--paper); }
 .neon .foot-c-news h5 {
-  font-size: 11px; font-weight: 600;
+  font-size:12px; font-weight: 600;
   letter-spacing: 0.22em; text-transform: uppercase;
   color: var(--gold); margin-bottom: 12px;
 }
 .neon .foot-c-news p {
-  font-size: 13px; color: var(--paper-dim); line-height: 1.6;
+  font-size:14.5px; color: var(--paper-dim); line-height: 1.6;
   margin-bottom: 14px; max-width: 30ch;
 }
 .neon .foot-c-news .field {
@@ -673,19 +673,19 @@
 .neon .foot-c-news .field input {
   flex: 1; padding: 12px 18px;
   background: transparent; border: 0; outline: 0;
-  font-family: inherit; font-size: 13px; color: var(--paper);
+  font-family: inherit; font-size:14.5px; color: var(--paper);
 }
 .neon .foot-c-news .field input::placeholder { color: var(--paper-faint); }
 .neon .foot-c-news .field button {
   background: var(--paper); color: var(--night);
   border: 0; padding: 0 22px; cursor: pointer;
-  font-family: inherit; font-size: 12px; font-weight: 600;
+  font-family: inherit; font-size:13px; font-weight: 600;
   letter-spacing: 0.06em;
 }
 .neon .foot-c-bot {
   margin-top: 28px;
   display: flex; justify-content: space-between; flex-wrap: wrap; gap: 14px;
-  font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase;
+  font-size:12px; letter-spacing: 0.12em; text-transform: uppercase;
   color: var(--paper-faint);
 }
 .neon .foot-c-bot .legal { display: flex; gap: 22px; flex-wrap: wrap; }
